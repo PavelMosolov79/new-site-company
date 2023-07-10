@@ -1,29 +1,41 @@
-import "./MainSection.css";
+// import "./MainSection.css";
+import "./MainSectionDesctop.css"
 
 const MainSection = ({ func }) => {
   return (
-    <div className="main__component">
+    <div className="main">
       <header>
-        <div className="header__logo">
-          <img src="./mplogo.png" alt="Company M and P Dev logo" className="header__logo__mobile" />
-          <img src="./mp-logo-desctop.svg" alt="Company M and P Dev logo" className="header__logo__desctop"/>
-        </div>   
-        <nav>
-          <ul>
-            <li>
-              <a onClick={() => func("contactSection")}>КОНТАКТЫ</a>
-            </li>
-            <li>
-              <a onClick={() => func("aboutSection")}>О КОМПАНИИ</a>
-            </li>
-            <li>
-              <a onClick={() => func("serviceSection")}>УСЛУГИ</a>
-            </li>
-            <li>
-              <a onClick={() => func("portfolioSection")}>ПОРТФОЛИО</a>
-            </li>
-          </ul>
-        </nav>
+        <div className="main__header-layout">
+          <div className="main__header-layout__logo">
+            <img src="./logo-company.svg" alt="LLC M&P NSK DEV" className="main__header-layout__logo"/>
+          </div>
+          <nav className="main__header-layout__navigation">
+            <ul>
+              <li>
+                <a className="main__header-layout__navigation-home">Home</a>
+              </li>
+              <li>
+                <a>О нас</a>
+              </li>
+              <li>
+                <a>Контакты</a>
+              </li>
+              <li>
+                <a>Услуги</a>
+              </li>
+            </ul>
+          </nav>
+          <div className="main__header-layout__menu">
+            <button className="main__header-layout__menu-dropdown">
+              <img src="./menu-bar.svg" alt="menu company"/>
+            </button>
+            <div className="main__header-layout__menu-dropdown__text">
+              <a href="#">ссылка 1</a>
+              <a href="#">ссылка 2</a>
+              <a href="#">ссылка 3</a>
+            </div> 
+          </div>
+        </div>
       </header>
       
       <div className="main_container">

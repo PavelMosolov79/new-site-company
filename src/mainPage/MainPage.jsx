@@ -14,12 +14,14 @@ const MainPage = () => {
   };
 
   return (
-    <scroll-container ref={fullpage} class="fullpage__container">
-      <scroll-page id='mainSection'>
-          <MainSection func={scrollToElement}/>
-      </scroll-page>
-      <MainSection func={scrollToElement}/>
-    </scroll-container>
+    <div class="fullpage__container">
+      <scroll-container ref={fullpage}>
+        <scroll-page id='mainSection'>
+            <MainSection func={scrollToElement}/>
+        </scroll-page>
+        {/* <MainSection func={scrollToElement}/> */}
+      </scroll-container>
+    </div>
   )
 }
 
