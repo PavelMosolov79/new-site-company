@@ -35,25 +35,49 @@
         height: 30%;
     }
 
-    .blocks__layout-button{
-        background-color: aliceblue;
-        width: 20%;
-        height: 20%;
+    .blocks__layout{
+        display: flex;
+        justify-content: center;
+
+        /* background-color: aliceblue; */
+        width: 90%;
+        height: calc(var(--index) * 15);
+    }
+
+    .blocks__ui-button{
+        border-radius: 43px;
+        background: #6F03B1;    
+
+        margin: 10px;
+        width: calc(var(--index) * 11.5);
+        height: calc(var(--index) * 11.5);
     }
 
     .blocks__tools-button{
-        width: 20%;
-        height: 20%;
+        border-radius: 43px;
+        background: #AB763D;
+
+        margin: 10px;
+        width: calc(var(--index) * 11.5);
+        height: calc(var(--index) * 11.5);
     }
 
     .blocks__design-button{
-        width: 20%;
-        height: 20%;
+        border-radius: 43px;
+        background: #D9D9D9;
+
+        margin: 10px;
+        width: calc(var(--index) * 11.5);
+        height: calc(var(--index) * 11.5);
     }
 
     .blocks__more-button{
-        width: 20%;
-        height: 20%;
+        border-radius: 43px;
+        background: #1D1D1D;
+
+        margin: 10px;
+        width: calc(var(--index) * 11.5);
+        height: calc(var(--index) * 11.5);
     }
 
     .main__container-animation__three{
