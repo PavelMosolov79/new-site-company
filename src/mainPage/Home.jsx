@@ -1,5 +1,7 @@
 "use client";
-import MainSection from "./mainSection/MainSection";
+import BlocksSection from "./MainPage/blocksSection/BlocksSection";
+import AboutSection from "./MainPage/aboutSection/AboutSection";
+import MainSection from "./MainPage/mainSection/MainSection";
 import { useRef } from "react";
 
 const MainPage = () => {
@@ -19,7 +21,12 @@ const MainPage = () => {
         <scroll-page id='mainSection'>
             <MainSection func={scrollToElement}/>
         </scroll-page>
-        {/* <MainSection func={scrollToElement}/> */}
+        <scroll-page id='aboutSection'>
+            <BlocksSection func={scrollToElement}/>
+        </scroll-page>
+        <scroll-page id='aboutSection'>
+            <AboutSection func={scrollToElement}/>
+        </scroll-page>
       </scroll-container>
     </div>
   )

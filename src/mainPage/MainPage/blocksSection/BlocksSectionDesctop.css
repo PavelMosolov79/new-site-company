@@ -1,0 +1,65 @@
+
+
+@media (min-width: 761px) {
+    /* HEADER */
+    :root {
+        --index: calc(1vw + 1vh);
+    }
+
+    @keyframes RotationOne {
+        from {
+            /* transition: 0.8s; */
+            transform: rotate(0deg);
+        }
+        to {
+            /* transition: 0.8s; */
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes RotationTwo {
+        from {
+            transition: 0.8s;
+            transform: rotate(0deg);
+        }
+        to {
+            transition: 0.8s;
+            transform: rotate(-360deg);
+        }
+    }
+
+    .blocks{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 30%;
+    }
+
+    .blocks__layout-button{
+        background-color: aliceblue;
+        width: 20%;
+        height: 20%;
+    }
+
+    .blocks__tools-button{
+        width: 20%;
+        height: 20%;
+    }
+
+    .blocks__design-button{
+        width: 20%;
+        height: 20%;
+    }
+
+    .blocks__more-button{
+        width: 20%;
+        height: 20%;
+    }
+
+    .main__container-animation__three{
+        position: absolute;
+        width: calc(var(--index) * 15);
+        height: calc(var(--index) * 15);
+        animation: RotationTwo 5s infinite linear;
+    }
+}
