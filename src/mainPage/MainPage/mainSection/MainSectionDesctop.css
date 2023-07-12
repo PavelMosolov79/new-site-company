@@ -6,13 +6,29 @@
         --index: calc(1vw + 1vh);
     }
 
+    @keyframes SizeOne {
+        0% {
+            margin: calc(var(--index) * 3.5);
+            width: calc(var(--index) * 8);
+            height: calc(var(--index) * 8);
+        }
+        50%{
+            margin: calc(var(--index) * 3.3);
+            width: calc(var(--index) * 9);
+            height: calc(var(--index) * 9);
+        }
+        100% {
+            margin: calc(var(--index) * 3.5);
+            width: calc(var(--index) * 8);
+            height: calc(var(--index) * 8);
+        }
+    }
+
     @keyframes RotationOne {
         from {
-            /* transition: 0.8s; */
             transform: rotate(0deg);
         }
         to {
-            /* transition: 0.8s; */
             transform: rotate(360deg);
         }
     }
@@ -143,6 +159,13 @@
     }
     /*  */
     /*MAIN CONTAINER*/
+    .main{
+        background-position: center center;
+        background-size: cover;
+
+        background-image: url("../../../../public/main-stacked-waves.svg");
+    }
+
     .main__container{
         display: flex;
         justify-content: center;
@@ -155,9 +178,10 @@
         display: flex;
         width: 90%;
         height: 80%;
-
+        margin-top: 10px;
         border-radius: 40px;
-        background: linear-gradient(161deg, #404040 0%, rgba(0, 0, 0, 0) 100%);
+        
+        background: linear-gradient(161deg, #3b3a4b 0%, rgba(0, 0, 0, 0) 100%);
     }
 
     .main__container-text{
@@ -189,7 +213,7 @@
         background-clip: text;
         background-image: linear-gradient(to right, #6a487b, #6d41d3, #9A98FE);
         font-family: Montserrat;
-        font-size: calc(var(--index) * 1.6);
+        font-size: calc(var(--index) * 1.5);
         font-style: italic;
         font-weight: 500;
     }
@@ -283,6 +307,7 @@
         width: calc(var(--index) * 8);
         height: calc(var(--index) * 8);
         animation: RotationOne 3s infinite linear;
+        /* animation: SizeOne 5s infinite linear; */
     }
 
     .main__container-animation__three{
@@ -295,10 +320,11 @@
     .main__container::before{
         background-color: #FFFFFF;
         content: " ";
-        background: #fefefe;
-        width: calc(var(--index) * 40);
-        height: 1px;
-        bottom: 25px;
+        background: linear-gradient(#131129 0%, rgb(0, 0, 0) 100%);
+        width: 100%;
+        height: 50px;
+        bottom: -5px;
+        filter: blur(13px);
         position: absolute;
     }
 }

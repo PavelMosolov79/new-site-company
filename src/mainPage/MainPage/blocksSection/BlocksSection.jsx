@@ -14,18 +14,22 @@ const BlocksSection = ({ func }) => {
       <div className="blocks__layout">
         <button className="blocks__ui-button">
           <div className="blocks__ui">
-            <h2>UX/UI ДИЗАЙН</h2>
+            <div className="blocks__ui-h2">
+              <h2>UX/UI ДИЗАЙН</h2>
+            </div>
             <div className="blocks__ui-text">
               <img src="./ux-circles.svg"/>
-              <a>10</a>
-              <a>Кейсов на реальных пользователях</a>
+              <div className="blocks__ui-text__a">
+                <a className="blocks__ui-text__a-10">10</a>
+                <a className="blocks__ui-text__a-case"><br/>Кейсов<br/> на реальных<br/> пользователях</a>
+              </div>
             </div>
           </div>
         </button>
         <button className="blocks__tools-button">
           <div className="blocks__tools">
-            <h2>Передовые инструменты обработки</h2>
-            <img src="./tool-circle.svg"/>
+              <h2>Передовые<br/>инструменты<br/>обработки</h2>
+              <img src="./tool-circle.svg"/>
           </div>
         </button>
         <button className="blocks__design-button">
@@ -33,7 +37,7 @@ const BlocksSection = ({ func }) => {
             <img src="./design-circle.svg"/>
             <h2>Живой дизайн</h2>
             <a>9-ЛУЧШИХ</a>
-            <a>инструментов для дизайна</a>
+            <p>инструментов для дизайна</p>
           </div>
         </button>
         <button className="blocks__more-button">
