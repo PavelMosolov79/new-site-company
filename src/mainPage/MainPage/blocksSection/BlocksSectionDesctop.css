@@ -159,12 +159,12 @@
 
     .blocks__tools h2{
         position: absolute;
-        margin: calc(var(--index) * 4.4) calc(var(--index) * 3.2);
+        margin: calc(var(--index) * 4.4) calc(var(--index) * 2.8);
 
         color: #232323;
         text-align: center;
         font-family: PT Serif;
-        font-size: 24px;
+        font-size: calc(var(--index) * 1);
         font-style: normal;
         font-weight: 700;
         line-height: 28px;
@@ -215,6 +215,7 @@
     }
 
     .blocks__design p{
+        color: #000;
         text-align: center;
         font-family: PT Serif;
         font-size: calc(var(--index) * 0.7);
@@ -224,6 +225,7 @@
     }
 
     .blocks__design a{
+        color: #000;
         text-align: center;
         font-family: PT Serif;
         font-size: calc(var(--index) * 1.5);
