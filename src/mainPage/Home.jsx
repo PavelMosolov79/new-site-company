@@ -16,7 +16,7 @@ const MainPage = () => {
   };
 
   return (
-    <div class="fullpage__container">
+    <div className="fullpage__container">
       <scroll-container ref={fullpage}>
         <scroll-page id='mainSection'>
             <MainSection func={scrollToElement}/>

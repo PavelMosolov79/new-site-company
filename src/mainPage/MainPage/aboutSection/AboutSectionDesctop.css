@@ -252,7 +252,7 @@
     .main__container-animation{
         display: flex;
         justify-content: center;
-        margin: 10%;
+        /* margin: 10%; */
         width: 30%;
         height: 50%;
     }

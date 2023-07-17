@@ -276,14 +276,17 @@
     .main__container-animation{
         display: flex;
         justify-content: center;
-        margin: 10%;
-        width: 30%;
-        height: 50%;
+        align-items: center;
+        width: 50%;
+        height: 100%;
     }
 
     .main__container-animation__button{
         position: absolute;
-        margin-top: calc(var(--index) * 7); 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: calc(var(--index) * 3);  */
     }
 
     .main__container-animation__button img{
@@ -295,7 +298,9 @@
 
     .main__container-animation__one{
         position: absolute;
-        margin: calc(var(--index) * 5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: calc(var(--index) * 5);
         height: calc(var(--index) * 5);
         animation: RotationTwo 10s infinite linear;        
@@ -303,7 +308,9 @@
 
     .main__container-animation__two{
         position: absolute;
-        margin: calc(var(--index) * 3.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: calc(var(--index) * 8);
         height: calc(var(--index) * 8);
         animation: RotationOne 3s infinite linear;
@@ -312,6 +319,9 @@
 
     .main__container-animation__three{
         position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: calc(var(--index) * 15);
         height: calc(var(--index) * 15);
         animation: RotationTwo 5s infinite linear;
