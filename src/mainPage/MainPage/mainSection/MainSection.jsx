@@ -56,8 +56,9 @@ const MainSection = ({ func }) => {
             <div className="main__container-text__button-layout">
               <button className="main__container-text__button">
                 <div className="main__container-text__button-background">
+                  <p>Не упусти возможность!</p> 
                   <img src="./elipse-sun-buy.svg"/>
-                  <a>Заказать сейчас</a>  
+                  <a>Заказать сейчас</a>
                 </div>
               </button>
             </div>
