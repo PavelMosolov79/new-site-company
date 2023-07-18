@@ -53,19 +53,21 @@
     }
 
     .main__header-layout__logo{
-        padding: 6px;
-        margin-left: 20px;
+        padding: 10px;
+        /* margin-left: 20px; */
 
-        width: 220px;
-        height: 10vh;
+        width: 250px;
+        height: 50;
     }
 
     .main__header-layout__logo img{
+        transition: 3s;
         height: 55px;
-        width: 200px;
+        width: 250px;
     }
 
     .main__header-layout__logo img:hover {
+        transition: 3s;
         -webkit-transform: rotateZ(10deg);
         -ms-transform: rotateZ(10deg);
         transform: rotateZ(10deg);

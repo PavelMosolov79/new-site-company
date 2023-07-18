@@ -289,4 +289,15 @@
         height: calc(var(--index) * 15);
         animation: RotationTwo 5s infinite linear;
     }
+
+    .blocks::before{
+        background-color: #FFFFFF;
+        content: " ";
+        background: linear-gradient(#ffffff 0%, rgb(0, 0, 0) 100%);
+        width: 90%;
+        height: 3px;
+        bottom: calc(var(--index) * -18);
+        /* filter: blur(13px); */
+        position: absolute;
+    }
 }
