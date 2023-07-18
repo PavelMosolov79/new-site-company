@@ -7,6 +7,20 @@
     }
 
     @keyframes RotationOne {
+        0%{
+            /* transition: 0.8s; */
+            transform: rotate(0deg);
+        }
+        50% {
+            /* transition: 0.8s; */
+            transform: rotate(360deg);
+        }
+        100% {
+
+        }
+    }
+
+    @keyframes RotationOne {
         from {
             /* transition: 0.8s; */
             transform: rotate(0deg);
@@ -29,8 +43,55 @@
     }
 
     .about{
-        display: block;
+        overflow: hidden;
+        /* display: block; */
         width: 100%;
-        height: 200%;
+        height: 300vh;
+        background: linear-gradient(180deg, #000 15.10%, #F70 47.92%, #FFC879 76.56%, #1D83BC 99.99%, #1D83BC 100%);
     }
+
+    .about__container{
+        /* width: 100%; */
+        /* height: 200%; */
+    }
+
+    .about__container-rectangle{
+
+    }
+
+    .about__moon{
+        /* margin-right: 100px; */
+        /* position: absolute; */
+        z-index: 1;
+        margin-top: calc(var(--index) * 30);
+        animation: RotationOne 20s infinite linear; 
+    }
+
+    .about__moon img{
+        width: calc(var(--index) * 9);
+        height: calc(var(--index) * 9);
+    }
+
+    .about__container-rectangle__after{
+        position: sticky;
+        top: 0;
+        margin: 2em;
+        /* min-height: 2em; */
+        background: lightpink;
+        /* min-height: 2em; */
+        width: 100%;
+        height: calc(var(--index) * 3);
+    }
+
+    .about__container-rectangle__before{
+        position: sticky;
+        top: 97.5%;
+        margin: 2em;
+        min-height: 2em;
+        background: lightpink;
+        /* min-height: 2em; */
+        /* width: 100%; */
+        /* height: calc(var(--index) * 3); */
+    }
+
 }
