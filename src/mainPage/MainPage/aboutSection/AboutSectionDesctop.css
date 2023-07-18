@@ -46,8 +46,8 @@
         overflow: hidden;
         /* display: block; */
         width: 100%;
-        height: 300vh;
-        background: linear-gradient(180deg, #000 15.10%, #F70 47.92%, #FFC879 76.56%, #1D83BC 99.99%, #1D83BC 100%);
+        height: 400vh;
+        background: linear-gradient(180deg, #000 15.10%, rgb(245, 143, 54) 47.92%, #FFC879 76.56%, #1D83BC 99.99%, #1D83BC 100%);
     }
 
     .about__container{
@@ -63,11 +63,33 @@
         /* margin-right: 100px; */
         /* position: absolute; */
         z-index: 1;
-        margin-top: calc(var(--index) * 30);
-        animation: RotationOne 20s infinite linear; 
+        position: relative;
+        margin-top: calc(var(--index) * 20);
+        animation: RotationOne 15s infinite linear; 
     }
 
     .about__moon img{
+        width: calc(var(--index) * 9);
+        height: calc(var(--index) * 9);
+    }
+
+    .about__star{
+        z-index: 2;
+        position: relative;
+    }
+
+    .about__star img{
+        width: 100%;
+        height: calc(var(--index) * 9);
+    }
+
+    .about__sun{
+        z-index: 1;
+        margin-top: calc(var(--index) * 45);
+        animation: RotationTwo 15s infinite linear; 
+    }
+
+    .about__sun img{
         width: calc(var(--index) * 9);
         height: calc(var(--index) * 9);
     }

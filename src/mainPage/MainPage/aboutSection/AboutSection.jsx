@@ -14,8 +14,15 @@ const AboutSection = ({ func }) => {
     <div className="about">
       {/* <div className="about__container-rectangle__after"></div> */}
       {/* <div className="about__container-rectangle__before"></div> */}
+      <div className="about__star">
+        <img src="./star.svg"/>
+      </div>
       <div className="about__moon">
         <img src="./moon.svg"/>
+      </div>
+      
+      <div className="about__sun">
+        <img src="./sun.svg"/>
       </div>
     </div>
   );
