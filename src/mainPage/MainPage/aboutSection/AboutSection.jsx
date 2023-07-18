@@ -17,10 +17,25 @@ const AboutSection = ({ func }) => {
       <div className="about__star">
         <img src="./star.svg"/>
       </div>
+      <div className="about__cloud">
+        <img src="./clouds.svg"/>
+      </div>
       <div className="about__moon">
         <img src="./moon.svg"/>
       </div>
-      
+      <div className="about__rectangle">
+        <div className="about__rectangle-one">
+          <img src="./lendind.svg"/>
+          <h2>ЛЕНДИНГ</h2>
+          <p>Цель лендинга — конвертировать посетителей сайта в клиентов. Вы предоставляете 
+            пользователям актуальные продукты, а взамен просите контактную информацию.</p>
+        </div>
+        <div className="about__rectangle-two">
+          <img src="./many-page.svg"/>
+        </div>
+        <div className="about__rectangle-three"></div>
+        <div className="about__rectangle-four"></div>
+      </div>
       <div className="about__sun">
         <img src="./sun.svg"/>
       </div>
