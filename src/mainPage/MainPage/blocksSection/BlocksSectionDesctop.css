@@ -46,6 +46,7 @@
         width: 100%;
         height: 30%;
         /* background-color: #1D1D1D; */
+        background: linear-gradient(180deg, #090C2D 15.10%, #000000 99.99%, #1D83BC 100%);
     }
 
     .blocks__layout{

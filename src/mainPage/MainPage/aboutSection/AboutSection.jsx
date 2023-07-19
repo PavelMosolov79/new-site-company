@@ -34,7 +34,7 @@ const AboutSection = ({ func }) => {
                 <div className="about__company-block__steps-item__number"><a>1</a></div>
                 <div className="about__company-block__steps-item__line"></div>
               </div>
-              <div>
+              <div className="about__company-block__steps-item__text">
                 <h2>Выбор необходимой услуги</h2>
                 <a>Вы выбираете необходимую услугу из списка услуг нашей компании.</a>
               </div>
@@ -44,48 +44,49 @@ const AboutSection = ({ func }) => {
                 <div className="about__company-block__steps-item__number"><a>2</a></div>
                 <div className="about__company-block__steps-item__line"></div>
               </div>
-              <div>
+              <div className="about__company-block__steps-item__text">
                 <h2>Оформление заявки</h2>
                 <a>На этапе оформления заявки вам будет предложено заполнить контактные данные для удобной связи с исполнителем по заказу, а также техническое задание для реализации заказа и дополнительные пожелания. Оформление заявки займет не более 5 минут.</a>
               </div>
             </div>
             <div className="about__company-block__steps-item">
               <div className="about__company-block__steps-item__flex">
-                <div className="about__company-block__steps-item__number"><a>1</a></div>
+                <div className="about__company-block__steps-item__number"><a>3</a></div>
                 <div className="about__company-block__steps-item__line"></div>
               </div>
-              <div>
-              <h2>Подтверждение заявки или оплата заказа</h2>
-              <a>После создания заявки вы можете дождаться звонка от нашего оператора и оплатить заказ после консультации по телефону. Если у вас не возникнет дополнительных вопросов, оплатить заказ можно сразу: после оплаты мы моментально назначим исполнителя на заказ.</a>
+              <div className="about__company-block__steps-item__text">
+                <h2>Подтверждение заявки или оплата заказа</h2>
+                <a>После создания заявки вы можете дождаться звонка от нашего оператора и оплатить заказ после консультации по телефону. Если у вас не возникнет дополнительных вопросов, оплатить заказ можно сразу: после оплаты мы моментально назначим исполнителя на заказ.</a>
+              </div>
             </div>
             <div className="about__company-block__steps-item">
               <div className="about__company-block__steps-item__flex">
-                <div className="about__company-block__steps-item__number"><a>1</a></div>
+                <div className="about__company-block__steps-item__number"><a>4</a></div>
                 <div className="about__company-block__steps-item__line"></div>
               </div>
-              <div>
+              <div className="about__company-block__steps-item__text">
                 <h2>Назначение специалиста и работа над заказом</h2>
                 <a>После оплаты заказа с вами свяжется наш специалист, дополнительно обсудит все детали заказа, после чего приступит к работе.</a>
               </div>
             </div>
             <div className="about__company-block__steps-item">
               <div className="about__company-block__steps-item__flex">
-                <div className="about__company-block__steps-item__number"><a>1</a></div>
+                <div className="about__company-block__steps-item__number"><a>5</a></div>
                 <div className="about__company-block__steps-item__line"></div>
               </div>
-              <div>
+              <div className="about__company-block__steps-item__text">
                 <h2>Прием готовой работы</h2>
                 <a>После того, как разработчик покажет вам финальную версию работы по заказу (и после внесения правок по вашим пожеланиям), работа будет передана вам, и заказ будет завершен.</a>
               </div>
             </div>
             <div className="about__company-block__steps-item">
               <div className="about__company-block__steps-item__flex">
-                <div className="about__company-block__steps-item__number"><a>1</a></div>
-                <div className="about__company-block__steps-item__line"></div>
+                <div className="about__company-block__steps-item__number"><a>6</a></div>
               </div>
-              <div>
-              <h2>Отзыв о нашей работе</h2>
-              <a>Вы сможете оценить работу специалиста и оставить отзыв о заказе.</a>
+              <div className="about__company-block__steps-item__text">
+                <h2>Отзыв о нашей работе</h2>
+                <a>Вы сможете оценить работу специалиста и оставить отзыв о заказе.</a>
+              </div>
             </div>
           </div>
         </div>
