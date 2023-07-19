@@ -36,7 +36,7 @@
         justify-content: center;
         width: 100%;
         height: 250vh;
-        background: linear-gradient(180deg, #000 15.10%, #1D83BC 99.99%, #1D83BC 100%);
+        background: linear-gradient(180deg, #000 15.10%, #0b3148 99.99%, #0e4463 100%);
 
     }
 
@@ -81,6 +81,7 @@
     }
 
     .about__company-block__steps-item__number{
+        transition: 0.8s;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -110,7 +111,7 @@
         color: #FFFFFF;
         font-family: PT Serif;
         font-weight: 800;
-        font-size: calc(var(--index) * 1.5);
+        font-size: calc(var(--index) * 1);
     }
 
     .about__company-block__steps-item a{
@@ -131,6 +132,19 @@
 
     .about__company-block__steps-item__text{
         margin-left: calc(var(--index) * 2);
+        width:calc(var(--index) * 40);
+    }
+
+    .about__company-block__steps-item__number:hover{
+        transition: 0.8s;
+        width: calc(var(--index) * 3.5);
+        height: calc(var(--index) * 3.5);
+        
+        color: rgb(85, 157, 240);
+        box-shadow: 
+        0 0 7px 1px rgb(85, 157, 240);
+        border-radius: 10px;
+        padding: 7px;
     }
 
     

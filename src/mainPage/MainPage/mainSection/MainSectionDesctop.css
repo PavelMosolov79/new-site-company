@@ -354,7 +354,7 @@
         background: linear-gradient(#ffffff 0%, rgb(0, 0, 0) 100%);
         width: 90%;
         height: 3px;
-        bottom: -20px;
+        bottom: -1px;
         /* filter: blur(13px); */
         position: absolute;
     }
