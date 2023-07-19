@@ -271,15 +271,16 @@
 
         font-weight: 600;
         text-align: right;
-        font-size: calc(var(--index) * 1);
+        font-size: calc(var(--index) * 0.9);
         color: #FFFFFF;
     }
 
     .about__rectangle-one p{
         width: calc(var(--index) * 10.5);
+        height: calc(var(--index) * 7);
 
         font-weight: 500;
-        text-align: right;
+        text-align: justify;
         font-size: calc(var(--index) * 0.6);
         color: #FFFFFF;
     }
@@ -302,8 +303,28 @@
     }
 
     .about__rectangle-two img{
-        width: calc(var(--index) * 10);
+        width: calc(var(--index) * 12);
         height: calc(var(--index) * 12);
+    }
+
+    .about__rectangle-two h2{
+        width: calc(var(--index) * 10.5);
+        height: calc(var(--index) * 1.5);
+
+        font-weight: 600;
+        text-align: right;
+        font-size: calc(var(--index) * 0.9);
+        color: #FFFFFF;
+    }
+
+    .about__rectangle-two p{
+        width: calc(var(--index) * 10.5);
+        height: calc(var(--index) * 7);
+
+        font-weight: 500;
+        text-align: justify;
+        font-size: calc(var(--index) * 0.6);
+        color: #FFFFFF;
     }
 
     .about__rectangle-two:hover{
@@ -314,8 +335,10 @@
     }
 
     .about__rectangle-three{
+        transition: 1s;
         width: calc(var(--index) * 12);
         height: calc(var(--index) * 25);
+        padding: calc(var(--index) * 0.5);
         border-radius: 30px;
         
         z-index: 4;
@@ -326,6 +349,31 @@
 
         background-color: rgba(255, 255, 255, 0.398);
         margin: 10px;
+    }
+
+    .about__rectangle-three img{
+        width: calc(var(--index) * 12);
+        height: calc(var(--index) * 12);
+    }
+
+    .about__rectangle-three h2{
+        width: calc(var(--index) * 10.5);
+        height: calc(var(--index) * 1.5);
+
+        font-weight: 600;
+        text-align: right;
+        font-size: calc(var(--index) * 0.9);
+        color: #FFFFFF;
+    }
+
+    .about__rectangle-three p{
+        width: calc(var(--index) * 10.5);
+        height: calc(var(--index) * 7);
+
+        font-weight: 500;
+        text-align: justify;
+        font-size: calc(var(--index) * 0.6);
+        color: #FFFFFF;
     }
 
     .about__rectangle-three:hover{
