@@ -1,0 +1,42 @@
+
+
+@media (min-width: 761px) {
+    /* HEADER */
+    :root {
+        --index: calc(1vw + 1vh);
+    }
+
+    @keyframes RotationOneMoon {
+        from {
+            /* transition: 0.8s; */
+            opacity: 0.3;
+            transform: rotate(0deg);
+        }
+        to {
+            /* transition: 0.8s; */
+            opacity: 0.3;
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes RotationTwoSun {
+        from {
+            transition: 0.8s;
+            transform: rotate(0deg);
+        }
+        to {
+            transition: 0.8s;
+            transform: rotate(-360deg);
+        }
+    }
+
+    .send{
+        overflow: hidden;
+        display: grid;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(0deg, #000 15.10%, #0b3148 99.99%, #0e4463 100%);
+
+    }
+}
