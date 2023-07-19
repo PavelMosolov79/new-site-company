@@ -137,8 +137,8 @@
 
     .about__company-block__steps-item__number:hover{
         transition: 0.8s;
-        width: calc(var(--index) * 3.5);
-        height: calc(var(--index) * 3.5);
+        /* width: calc(var(--index) * 3.5); */
+        /* height: calc(var(--index) * 3.5); */
         
         color: rgb(85, 157, 240);
         box-shadow: 

@@ -297,7 +297,7 @@
         content: " ";
         background: linear-gradient(#ffffff 0%, rgb(0, 0, 0) 100%);
         width: 90%;
-        height: 3px;
+        height: 1px;
         bottom: calc(var(--index) * -15);
         /* filter: blur(13px); */
         position: absolute;

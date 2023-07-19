@@ -163,8 +163,8 @@
     .main{
         background-position: center center;
         background-size: cover;
-
-        background-image: url("../../../../public/main-stacked-waves.svg");
+        background: linear-gradient(0deg, #090C2D 15.10%, #000000 99.99%, #1D83BC 100%);
+        /* background-image: url("../../../../public/main-stacked-waves.svg"); */
     }
 
     .main__container{
