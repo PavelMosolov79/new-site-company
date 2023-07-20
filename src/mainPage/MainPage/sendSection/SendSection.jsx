@@ -24,7 +24,7 @@ const SendSection = ({ func }) => {
       setIsShown(!isShown);
   };
 
-  const [buttonColor, setButtonColor] = useState('red');
+  const [buttonColor, setButtonColor] = useState("linear-gradient(180deg, #606060 0%, rgba(96, 96, 96, 0.00) 100%)");
 
   const handleButtonClick = () => {
     setButtonColor('green');

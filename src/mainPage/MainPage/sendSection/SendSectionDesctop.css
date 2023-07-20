@@ -232,12 +232,12 @@
         cursor: pointer;
     }
 
-    .contact__form__container-send {
+    /* .contact__form__container-send {
         user-select:none;
         position: relative;
         background: black;
         color: #ffffff;
-        /* background: transparent; */
+        background: transparent;
         border: 2px solid;
         transition: all 0.25s ease;
         width: 220px;
@@ -249,7 +249,7 @@
         justify-content: center;
         align-items: center;
         display: flex;
-      }
+      } */
     
       .contact__form__container-send:hover{
         background: rgba(116, 23, 231, 1);
@@ -292,7 +292,7 @@
       }
     }
     
-    /* .contact__form__container-send {
+    .contact__form__container-send {
         display: flex;
         justify-content: center;
         width: calc(var(--index) * 13);
@@ -306,7 +306,7 @@
         font-size: calc(var(--index) * 1);
         color: #FFFFFF;
         cursor: pointer;
-    } */
+    }
     
     .contact__form-send__massege{
         display: flex;
