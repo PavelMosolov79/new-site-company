@@ -494,7 +494,7 @@
         background: linear-gradient(#ffffff 0%, rgb(0, 0, 0) 100%);
         width: 90%;
         height: 3px;
-        bottom: -287vh;
+        bottom: -290vh;
         left: calc(var(--index) * 3.3);;
         /* filter: blur(13px); */
         position: absolute;

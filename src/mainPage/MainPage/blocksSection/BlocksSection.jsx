@@ -1,4 +1,4 @@
-// import "./MainSectionPhone.css";
+import "./BlocksSectionPhone.css";
 import "./BlocksSectionDesctop.css"
 
 const BlocksSection = ({ func }) => {

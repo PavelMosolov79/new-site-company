@@ -1,5 +1,4 @@
-// import "./MainSectionPhone.css";
-// import "./AboutSectionDesctop.css"
+import "./AboutSectionPhone.css";
 import "./AboutSectionDesctop.css"
 
 const AboutSection = ({ func }) => {
@@ -86,10 +85,11 @@ const AboutSection = ({ func }) => {
         </div>
       </div>
 
+      
+      <div className="about__rectangle">
       <div className="about__header">
         <h2>Создание сайтов на заказ от команды M&P NSK DEV</h2>
       </div>
-      <div className="about__rectangle">
         <div className="about__rectangle-one">
           <img src="./lendind.svg"/>
           <h2>ЛЕНДИНГ</h2>
