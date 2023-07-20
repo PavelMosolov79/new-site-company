@@ -84,10 +84,11 @@ const AboutSection = ({ func }) => {
           </div>
         </div>
       </div>
+      <div className="about__header">
+        <h2>Создание сайтов на заказ от команды M&P NSK DEV</h2>
+      </div>
       <div className="about__rectangle">
-        <div className="about__header">
-          <h2>Создание сайтов на заказ от команды M&P NSK DEV</h2>
-        </div>
+        
 
         <div className="about__rectangle-one">
           <img src="./lendind.svg"/>
