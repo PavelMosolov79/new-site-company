@@ -41,7 +41,7 @@
     }
 
     .send__block{
-        width: calc(var(--index) * 35);
+        width: calc(var(--index) * 30);
         height: calc(var(--index) * 57);
         margin: calc(var(--index) * 3);
     
