@@ -30,10 +30,10 @@ const MainPage = () => {
             <AboutSection func={scrollToElement}/>
         </scroll-page>
         <scroll-page id='aboutSection'>
-            {/* <SendSection func={scrollToElement}/> */}
+            <SendSection func={scrollToElement}/>
         </scroll-page>
         <scroll-page id='aboutSection'>
-            {/* <FoterSection func={scrollToElement}/> */}
+            <FoterSection func={scrollToElement}/>
         </scroll-page>
       </scroll-container>
     </div>
