@@ -36,13 +36,13 @@
         /* flex-wrap: wrap; */
         justify-content: center;
         width: 100%;
-        height: 240vh;
+        height: calc(var(--index) * 145);
         background: linear-gradient(180deg, #000 15.10%, #0b3148 99.99%, #0e4463 100%);
 
     }
 
     .about__company{
-        margin-left: calc(var(--index) * 2);
+        margin-left: calc(var(--index) * 1.8);
         /* display: grid; */
         /* grid-gap: 500px; */
         justify-content: center;
@@ -179,7 +179,7 @@
         width: 90%;
         height: calc(var(--index) * 25);
         margin-top: calc(var(--index) * 2);
-        margin-left: 25px;
+        margin-left: calc(var(--index) * 2);
         /* background-color: aliceblue; */
     }
 
