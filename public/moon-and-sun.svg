@@ -1,0 +1,18 @@
+<svg width="400" height="536" viewBox="0 0 400 536" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="200" cy="276" r="196" stroke="#848080" stroke-width="8"/>
+<circle cx="200" cy="100" r="100" fill="url(#paint0_linear_102_2)"/>
+<circle cx="200" cy="436" r="100" fill="#4A4949"/>
+<circle cx="205.882" cy="430.118" r="94.1176" fill="#B9B9B9"/>
+<ellipse cx="262.941" cy="410.412" rx="12.3529" ry="12.0588" fill="#4A4949"/>
+<circle cx="244.706" cy="387.765" r="5.88235" fill="#4A4949"/>
+<circle cx="268.824" cy="448.941" r="5.88235" fill="#4A4949"/>
+<circle cx="260" cy="378.941" r="2.94118" fill="#4A4949"/>
+<circle cx="235.882" cy="501.294" r="2.94118" fill="#4A4949"/>
+<circle cx="238.824" cy="425.412" r="2.94118" fill="#4A4949"/>
+<defs>
+<linearGradient id="paint0_linear_102_2" x1="200" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF9900"/>
+<stop offset="1" stop-color="#FF6B00"/>
+</linearGradient>
+</defs>
+</svg>

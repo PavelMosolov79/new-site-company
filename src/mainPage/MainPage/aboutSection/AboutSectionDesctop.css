@@ -31,7 +31,7 @@
     }
 
     .about{
-        overflow: hidden;
+        /* overflow:scroll; */
         display: grid;
         justify-content: center;
         width: 100%;
@@ -44,8 +44,7 @@
         border-radius: 86px;
         background: linear-gradient(0deg, #00000000 0%, rgba(181, 138, 255, 0.374) 99.48%);
         width: 90%;
-        height: calc(var(--index) * 40);
-
+        height: calc(var(--index) * 37);
         margin: calc(var(--index) * 3);
     }
 
@@ -62,22 +61,76 @@
         font-size: calc(var(--index) * 2);
     }
 
+    .about__cmpany-layout{
+        display: flex;
+        justify-content: center;
+        margin: calc(var(--index) * 0.5) calc(var(--index) * 3);
+    }
+
+    .about__company-lamp{
+        position: sticky;
+        top: 20px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: calc(var(--index) * 18.4);
+        width: calc(var(--index) * 10.4);
+        margin-left: calc(var(--index) * 2);
+        border-radius: 30px;
+        border: 1px solid rgb(99, 99, 99);
+    }
+
+    .about__company-lamp__block{
+        
+
+        /* margin-top: 10px; */
+        display: grid;
+        justify-content: center;
+        height: calc(var(--index) * 18);
+        width: calc(var(--index) * 10);
+        background: linear-gradient(0deg, #8d2bdd 0%, rgb(63, 13, 129) 99.48%);
+        border-radius: 30px;
+        
+    }
+
+    .about__company-lamp__block img{
+        height: calc(var(--index) * 9);
+        width: calc(var(--index) * 9.5);
+        opacity: 0.2;
+        margin: 5px;
+    }
+
+    .about__company-lamp__block h2{
+        color: #f0f0f0;
+        text-align: center;
+        font-family: PT Serif;
+        font-weight: 800;
+        font-size: calc(var(--index) * 0.7);
+    }
+
+    .about__company-lamp__block-a{
+        display: flex;
+        justify-content: center;
+        margin: calc(var(--index) * 0.7);
+    }
+
+    .about__company-lamp__block a{
+        
+        color: #bbb9b9;
+        text-align: justify;
+        font-family: PT Serif;
+        font-weight: 600;
+        font-size: calc(var(--index) * 0.7);
+    }
+
     .about__company-block{
         display: flex;
         justify-content: center;
     }
 
-    .about__company-block__steps{
-        margin: calc(var(--index) * 0.5) calc(var(--index) * 3);
-    }
-
     .about__company-block__steps-item{
         display: flex;
-    }
-
-    .about__company-block__steps-item__flex{
-        /* display: fl; */
-        /* justify-content: center; */
     }
 
     .about__company-block__steps-item__number{
@@ -97,13 +150,11 @@
     }
 
     .about__company-block__steps-item__line{
-        /* display: flex; */
-        /* justify-content: center; */
         position: relative;
         z-index: 1;
         left: calc(var(--index) * 1.5);
         width: calc(var(--index) * 0.1);
-        height: calc(var(--index) * 3.5);
+        height: calc(var(--index) * 3);
         background: linear-gradient(0deg, #3f2648 0%, rgb(142, 48, 180) 99.48%);
     }
 
@@ -111,7 +162,7 @@
         color: #FFFFFF;
         font-family: PT Serif;
         font-weight: 800;
-        font-size: calc(var(--index) * 1);
+        font-size: calc(var(--index) * 0.9);
     }
 
     .about__company-block__steps-item a{
@@ -119,7 +170,7 @@
         font-family: PT Serif;
         font-weight: 500;
         text-align: right;
-        font-size: calc(var(--index) * 0.8);
+        font-size: calc(var(--index) * 0.7);
     }
 
     .about__company-block__steps-item__number a{
@@ -132,13 +183,11 @@
 
     .about__company-block__steps-item__text{
         margin-left: calc(var(--index) * 2);
-        width:calc(var(--index) * 40);
+        width:calc(var(--index) * 26);
     }
 
     .about__company-block__steps-item__number:hover{
         transition: 0.8s;
-        /* width: calc(var(--index) * 3.5); */
-        /* height: calc(var(--index) * 3.5); */
         
         color: rgb(85, 157, 240);
         box-shadow: 
@@ -164,10 +213,7 @@
     }
 
     .about__moon{
-        /* margin-right: 100px; */
-        /* position: absolute; */
         z-index: 1;
-        /* position: relative; */
         margin-top: calc(var(--index) * 1);
         animation: RotationOneMoon 15s infinite linear; 
     }
@@ -201,7 +247,7 @@
 
     .about__sun{
         z-index: 1;
-        margin-top: calc(var(--index) * 1);
+        margin-top: calc(var(--index) * -10);
         animation: RotationTwoSun 15s infinite linear; 
     }
 

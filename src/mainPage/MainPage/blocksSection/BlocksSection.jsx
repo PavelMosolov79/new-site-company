@@ -2,13 +2,6 @@
 import "./BlocksSectionDesctop.css"
 
 const BlocksSection = ({ func }) => {
-  function changeImage() {
-    var temp = document.getElementById("pic1").src;
-    document.getElementById("pic1").src = document.getElementById("pic2").src;
-    document.getElementById("pic2").src = temp;
-  }
-
-
   return (
     <div className="blocks">
       <div className="blocks__layout">

@@ -99,7 +99,7 @@
         font-family: PT Serif;
         font-weight: 600;
         color: #FFFFFF;
-        font-size: 20px;
+        font-size: 25px;
         cursor: pointer;
     }
     
@@ -351,10 +351,10 @@
         background-color: #FFFFFF;
         content: " ";
         background: linear-gradient(#ffffff 0%, rgb(0, 0, 0) 100%);
-        width: 90%;
-        height: 3px;
+        width: 80%;
+        height: 1px;
         bottom: -1px;
-        /* filter: blur(13px); */
+        filter: blur(1px);
         position: absolute;
     }
 }
