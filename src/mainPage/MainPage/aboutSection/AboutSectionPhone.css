@@ -32,23 +32,24 @@
 
     .about{
         /* overflow:scroll; */
-        display: flex;
-        flex-wrap: wrap;
+        /* display: flex; */
+        /* flex-wrap: wrap; */
         justify-content: center;
         width: 100%;
-        height: 260vh;
+        height: 240vh;
         background: linear-gradient(180deg, #000 15.10%, #0b3148 99.99%, #0e4463 100%);
 
     }
 
     .about__company{
-        display: grid;
+        margin-left: calc(var(--index) * 2);
+        /* display: grid; */
         /* grid-gap: 500px; */
         justify-content: center;
         border-radius: 30px;
         background: linear-gradient(0deg, #00000000 0%, rgba(181, 138, 255, 0.374) 99.48%);
         width: 90%;
-        height: calc(var(--index) * 65);
+        height: calc(var(--index) * 80);
         padding: calc(var(--index) * 2);
         /* margin: calc(var(--index) * 3); */
     }
@@ -96,6 +97,7 @@
 
         width: calc(var(--index) * 3);
         height: calc(var(--index) * 3);
+        margin-left: 20px;
         
         background: linear-gradient(0deg, #52325d 0%, rgb(15, 17, 118) 99.48%);
         border-radius: 20px;
@@ -106,8 +108,9 @@
         position: relative;
         z-index: 1;
         left: calc(var(--index) * 1.5);
+        margin-left: 20px;
         width: calc(var(--index) * 0.1);
-        height: calc(var(--index) * 7);
+        height: calc(var(--index) * 10);
         background: linear-gradient(0deg, #3f2648 0%, rgb(142, 48, 180) 99.48%);
     }
 
@@ -115,15 +118,16 @@
         color: #FFFFFF;
         font-family: PT Serif;
         font-weight: 800;
-        font-size: calc(var(--index) * 0.9);
+        font-size: calc(var(--index) * 1.2);
     }
 
     .about__company-block__steps-item a{
         color: #bcbcbc;
         font-family: PT Serif;
-        font-weight: 500;
-        text-align: right;
-        font-size: calc(var(--index) * 0.7);
+        font-weight: 400;
+        /* text-align: right; */
+        font-size: calc(var(--index) * 1);
+        
     }
 
     .about__company-block__steps-item__number a{
@@ -152,18 +156,18 @@
     
 
     .about__header{
-        display: flex;
-        justify-content: center;
+        /* display: flex; */
+        /* justify-content: center; */
+        /* margin-left: 40px; */
         width: 90%;
-        height: calc(var(--index) * 1);
+        /* height: calc(var(--index) * 1); */
     }
 
     .about__header h2{
-
         font-family: PT Serif;
         font-weight: 600;
-        text-align: right;
-        font-size: calc(var(--index) * 1);
+        text-align: center;
+        font-size: calc(var(--index) * 2);
         color: #FFFFFF;
     }
 
@@ -175,6 +179,7 @@
         width: 90%;
         height: calc(var(--index) * 25);
         margin-top: calc(var(--index) * 2);
+        margin-left: 25px;
         /* background-color: aliceblue; */
     }
 
@@ -183,7 +188,7 @@
         width: calc(var(--index) * 12);
         height: calc(var(--index) * 26);
         padding: calc(var(--index) * 0.5);
-        border-radius: 30px;
+        border-radius: 10px;
 
         z-index: 4;
         position: relative;
@@ -233,7 +238,7 @@
         width: calc(var(--index) * 12);
         height: calc(var(--index) * 26);
         padding: calc(var(--index) * 0.5);
-        border-radius: 30px;
+        border-radius: 10px;
         
         z-index: 4;
         position: relative;
@@ -282,7 +287,7 @@
         width: calc(var(--index) * 12);
         height: calc(var(--index) * 26);
         padding: calc(var(--index) * 0.5);
-        border-radius: 30px;
+        border-radius: 10px;
         
         z-index: 4;
         position: relative;
@@ -331,7 +336,7 @@
         width: calc(var(--index) * 12);
         height: calc(var(--index) * 26);
         padding: calc(var(--index) * 0.5);
-        border-radius: 30px;
+        border-radius: 10px;
         
         z-index: 4;
         position: relative;

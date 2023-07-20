@@ -1,5 +1,4 @@
-// import "./MainSectionPhone.css";
-// import "./AboutSectionDesctop.css"
+import "./FoterSectionPhone.css";
 import "./FoterSectionDesctop.css"
 
 const FoterSection = ({ func }) => {

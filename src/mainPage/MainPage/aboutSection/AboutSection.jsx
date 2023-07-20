@@ -84,18 +84,18 @@ const AboutSection = ({ func }) => {
           </div>
         </div>
       </div>
-
-      
       <div className="about__rectangle">
-      <div className="about__header">
-        <h2>Создание сайтов на заказ от команды M&P NSK DEV</h2>
-      </div>
+        <div className="about__header">
+          <h2>Создание сайтов на заказ от команды M&P NSK DEV</h2>
+        </div>
+
         <div className="about__rectangle-one">
           <img src="./lendind.svg"/>
           <h2>ЛЕНДИНГ</h2>
           <p>Цель лендинга — конвертировать посетителей сайта в клиентов. Вы предоставляете 
             пользователям актуальные продукты, а взамен просите контактную информацию.</p>
         </div>
+
         <div className="about__rectangle-two">
           <img src="./many-page.svg"/>
           <h2>МНОГОСТРАНИЧНЫЙ<br/>САЙТ</h2>
@@ -103,6 +103,7 @@ const AboutSection = ({ func }) => {
             как правило, легко оптимизируются, отлично продвигаются. Дизайн хорошо подходит практически 
             для любого типа проекта.</p>
         </div>
+
         <div className="about__rectangle-three">
           <img src="./shop.svg"/>
           <h2>ИНТЕРНЕТ-МАГАЗИН</h2>
@@ -110,6 +111,7 @@ const AboutSection = ({ func }) => {
             онлайн, в своём браузере или через мобильное приложение, сформировать заказ на покупку, выбрать 
             способ оплаты и доставки заказа, оплатить заказ.</p>
         </div>
+
         <div className="about__rectangle-four">
           <img src="./legal.svg"/>
           <h2>ЮРИДИЧЕСКИЙ<br/>КАБИНЕТ</h2>
@@ -117,6 +119,7 @@ const AboutSection = ({ func }) => {
             и квалификацию специалистов. Презентовать нужно грамотно: солидный, современный дизайн, удобная 
             структура, грамотная подача материалов.</p>
         </div>
+
       </div>
       {/* <div className="about__sun"> */}
         {/* <img src="./sun.svg"/> */}
