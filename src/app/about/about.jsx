@@ -1,12 +1,12 @@
 "use client";
-import BlocksSection from "./MainPage/blocksSection/BlocksSection";
-import AboutSection from "./MainPage/aboutSection/AboutSection";
+// import BlocksSection from "./MainPage/blocksSection/BlocksSection";
+// import AboutSection from "./MainPage/aboutSection/AboutSection";
 import MainSection from "./MainPage/mainSection/MainSection";
-import SendSection from "./MainPage/sendSection/SendSection";
+// import SendSection from "./MainPage/sendSection/SendSection";
 import FoterSection from "./MainPage/foterSection/FoterSection";
 import { useRef } from "react";
 
-const About = () => {
+const AboutPage = () => {
   const fullpage = useRef(null);
 
   const scrollToElement = (id) => {
@@ -23,15 +23,6 @@ const About = () => {
         <scroll-page id='mainSection'>
             <MainSection func={scrollToElement}/>
         </scroll-page>
-        <scroll-page id='BlockSection'>
-            <BlocksSection func={scrollToElement}/>
-        </scroll-page>
-        <scroll-page id='aboutSection'>
-            <AboutSection func={scrollToElement}/>
-        </scroll-page>
-        <scroll-page id='SendSection'>
-            <SendSection func={scrollToElement}/>
-        </scroll-page>
         <scroll-page id='FoterSection'>
             <FoterSection func={scrollToElement}/>
         </scroll-page>
@@ -40,4 +31,4 @@ const About = () => {
   )
 }
 
-export default About;
+export default AboutPage;

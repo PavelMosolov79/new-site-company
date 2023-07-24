@@ -1,9 +1,9 @@
-import About from "./pages/aboutPage/about"
+import AboutPage from "./about"
 
 export default function Home() {
   return (
     <main className="">
-      <About/>
+      <AboutPage/>
     </main>
   )
 }

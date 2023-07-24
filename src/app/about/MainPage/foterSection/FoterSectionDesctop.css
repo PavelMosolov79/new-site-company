@@ -35,6 +35,7 @@
         justify-content: center;
         width: 100%;
         height: calc(var(--index) * 18);
+        background: linear-gradient(0deg, #081170 15.10%, #085edf 99.99%, #102735 100%);
         /* background-color: aliceblue; */
     }
 

@@ -114,6 +114,7 @@
     }
 
     .main__header-layout__navigation-home{
+        transition: 2s;
         border-radius: 49px;
         background: linear-gradient(135deg, rgba(217, 217, 217, 0.531) 0%, rgba(217, 217, 217, 0.00) 100%);
 

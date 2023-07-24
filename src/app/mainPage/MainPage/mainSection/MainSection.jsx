@@ -1,5 +1,6 @@
 import "./MainSectionPhone.css";
 import "./MainSectionDesctop.css"
+import Link from "next/link"
 
 const MainSection = ({ func }) => {
   function changeImage() {
@@ -19,16 +20,16 @@ const MainSection = ({ func }) => {
           <nav className="main__header-layout__navigation">
             <ul>
               <li>
-                <a className="main__header-layout__navigation-home">Home</a>
+                <a href="/" className="main__header-layout__navigation-home">Home</a>
               </li>
               <li>
-                <a>О нас</a>
+                <a href="/about">О нас</a>
               </li>
               <li>
-                <a>Контакты</a>
+                <a href="/contacts">Контакты</a>
               </li>
               <li>
-                <a>Услуги</a>
+                <a href="/services">Услуги</a>
               </li>
             </ul>
           </nav>
@@ -37,10 +38,10 @@ const MainSection = ({ func }) => {
               <img src="./menu-bar.svg" alt="menu company"/>
             </button>
             <div className="main__header-layout__menu-dropdown__text">
-              <a href="/">Home</a>
-              <a href="#">О нас</a>
-              <a href="#">Контакты</a>
-              <a href="#">Услуги</a>
+              <a>Home</a>
+              <a href="/about">О нас</a>
+              <a href="/contacts">Контакты</a>
+              <a href="/services">Услуги</a>
             </div> 
           </div>
         </div>
@@ -53,15 +54,15 @@ const MainSection = ({ func }) => {
               <h1>К САЙТУ СВОЕЙ МЕЧТЫ</h1>
               <a>с нами - это легко!</a>
             </div>
-            <div className="main__container-text__button-layout">
-              <button className="main__container-text__button">
+            <a className="main__container-text__button-layout" href="/contacts">
+              <div className="main__container-text__button">
                 <div className="main__container-text__button-background">
                   <p>Не упусти возможность!</p> 
                   <img src="./elipse-sun-buy.svg"/>
                   <a>Заказать сейчас</a>
                 </div>
-              </button>
-            </div>
+              </div>
+            </a>
           </div>
           <div className="main__container-animation">
             <img id="pic1" src="./elipse-button-3.svg" className="main__container-animation__three"/>
