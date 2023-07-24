@@ -1,8 +1,8 @@
 
 
-@media (max-width: 761px) {
-     /* HEADER */
-     :root {
+@media (min-width: 761px) {
+    /* HEADER */
+    :root {
         --index: calc(1vw + 1vh);
     }
 
@@ -34,8 +34,8 @@
         display: flex;
         justify-content: center;
         width: 100%;
-        height: calc(var(--index) * 37);
-        background: linear-gradient(0deg, #081170 15.10%, #085edf 99.99%, #102735 100%);
+        height: calc(var(--index) * 18);
+        background-color: #290142;
         /* background-color: aliceblue; */
     }
 
@@ -83,11 +83,10 @@
 
     .foter__block-href__company-pay__img{
         display: flex;
-        flex-wrap: wrap;
     }
 
     .foter__block-href__company-pay__img img{
-        margin-top: calc(var(--index) * 1.5);
+        margin-left: calc(var(--index) * 1.5);
     }
 
     .foter__block-href__company{

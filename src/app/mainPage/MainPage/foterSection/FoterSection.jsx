@@ -26,10 +26,10 @@ const FoterSection = ({ func }) => {
             <div>
               <h3>Компания</h3>
               <ul>
-                <li><a>О компании</a></li>
-                <li><a>Портфолио</a></li>
-                <li><a>Документы</a></li>
-                <li><a>Контакты</a></li>
+                <li><a href="/about">О компании</a></li>
+                <li><a href="/about">Портфолио</a></li>
+                <li><a href="/contacts">Документы</a></li>
+                <li><a href="/contacts">Контакты</a></li>
               </ul>
             </div>
             <div className="foter__block-href__company-pay">
