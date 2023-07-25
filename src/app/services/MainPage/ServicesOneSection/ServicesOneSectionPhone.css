@@ -102,7 +102,7 @@
     .services__one-rectangle__multipage-text a{
         color: #ffffff;
         font-family: PT Serif;
-        font-size: calc(var(--index) * 0.8);
+        font-size: calc(var(--index) * 0.7);
         font-style: normal;
         align-items: center;
         font-weight: 500;
