@@ -54,15 +54,15 @@ const MainSection = ({ func }) => {
               <h1>К САЙТУ СВОЕЙ МЕЧТЫ</h1>
               <a>с нами - это легко!</a>
             </div>
-            <a className="main__container-text__button-layout" href="/contacts">
+            <div className="main__container-text__button-layout">
               <div className="main__container-text__button">
                 <div className="main__container-text__button-background">
                   <p>Не упусти возможность!</p> 
                   <img src="./elipse-sun-buy.svg"/>
-                  <a>Заказать сейчас</a>
+                  <a href="/contacts">Заказать сейчас</a>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
           <div className="main__container-animation">
             <img id="pic1" src="./elipse-button-3.svg" className="main__container-animation__three"/>

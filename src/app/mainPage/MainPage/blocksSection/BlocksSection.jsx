@@ -33,10 +33,10 @@ const BlocksSection = ({ func }) => {
             <p>инструментов для дизайна</p>
           </div>
         </button>
-        <button className="blocks__more-button">
+        <button type="button" onClick={(e) => {e.preventDefault(); window.location.href='/about';}} className="blocks__more-button">
           <div className="blocks__more">
             <img src="./about-arrow.svg"/>
-            <h2>Хотите узнать больше о нас?</h2>
+            <a>Хотите узнать больше о нас?</a>
           </div>
         </button>
       </div>

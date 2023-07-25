@@ -1,0 +1,31 @@
+
+
+@media (max-width: 761px) {
+    /* HEADER */
+    :root {
+        --index: calc(1vw + 1vh);
+    }
+    
+    @keyframes RotationOne {
+        from {
+            /* transition: 0.8s; */
+            transform: rotate(0deg);
+        }
+        to {
+            /* transition: 0.8s; */
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes RotationTwo {
+        from {
+            transition: 0.8s;
+            transform: rotate(0deg);
+        }
+        to {
+            transition: 0.8s;
+            transform: rotate(-360deg);
+        }
+    }
+
+}

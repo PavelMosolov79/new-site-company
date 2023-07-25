@@ -268,7 +268,7 @@
         animation: OpacityArrow 3s infinite linear;
     }
 
-    .blocks__more h2{
+    .blocks__more a{
         color: #ffffff;
         font-family: PT Serif;
         font-size: calc(var(--index) * 2);
