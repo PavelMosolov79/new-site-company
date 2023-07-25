@@ -10,16 +10,16 @@ const FoterSection = ({ func }) => {
           <div className="foter__block-href__services">
             <h3>УСЛУГИ</h3>
             <ul>
-              <li><a>Лендинг</a></li>
-              <li><a>Многостраничный сайт</a></li>
-              <li><a>Сайт-визитка</a></li>
-              <li><a>Интернет магазин</a></li>
-              <li><a>Юридический кабинет</a></li>
-              <li><a>Android приложение</a></li>
-              <li><a>Desctop приложение</a></li>
-              <li><a>Дизайн бренда</a></li>
-              <li><a>Дизайн визиток</a></li>
-              <li><a>Ремонт ПК</a></li>
+              <li><a href="/services">Лендинг</a></li>
+              <li><a href="/services">Многостраничный сайт</a></li>
+              <li><a href="/services">Сайт-визитка</a></li>
+              <li><a href="/services">Интернет магазин</a></li>
+              <li><a href="/services">Юридический кабинет</a></li>
+              <li><a href="/services">Android приложение</a></li>
+              <li><a href="/services">Desctop приложение</a></li>
+              <li><a href="/services">Дизайн бренда</a></li>
+              <li><a href="/services">Дизайн визиток</a></li>
+              <li><a href="/services">Ремонт ПК</a></li>
             </ul>
           </div>
           <div className="foter__block-href__company">
