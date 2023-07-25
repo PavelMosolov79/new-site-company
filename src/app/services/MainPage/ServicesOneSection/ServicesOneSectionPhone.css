@@ -102,7 +102,7 @@
     .services__one-rectangle__multipage-text a{
         color: #ffffff;
         font-family: PT Serif;
-        font-size: calc(var(--index) * 0.7);
+        font-size: calc(var(--index) * 0.6);
         font-style: normal;
         align-items: center;
         font-weight: 500;
@@ -123,7 +123,7 @@
 
     .services__one-rectangle__multipage-img img{
         border-radius: 20px;
-        width: calc(var(--index) * 12);
-        height: calc(var(--index) * 12);
+        width: calc(var(--index) * 11);
+        height: calc(var(--index) * 11);
     }
 }
