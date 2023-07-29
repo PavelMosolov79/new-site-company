@@ -4,8 +4,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Разработка сайтов и приложений, дизайн и продвижение',
-  description: 'Разработка сайтов в Новосибирске - хотите получить сайт с индивидуальным дизайном от 10 000 рублей, тогда вы попали по адрессу!',
+  title: 'Технологии воплощают идеи: Разработка сайтов и чат-ботов',
+  description: 'Превратите свои идеи в реальность! MPNskDev.tech - ваш надежный партнер в разработке сайтов и чат-ботов. Мы объединяем креативность с передовыми технологиями, чтобы создать впечатляющий след в цифровом мире. Команда профессионалов с офисом в Новосибирске, работаем с клиентами по всей России. Повысьте эффективность вашего бизнеса с нами!',
 }
 
 export default function RootLayout({ children }) {
@@ -23,12 +23,10 @@ export default function RootLayout({ children }) {
         
         <meta property="og:image" content="/og-image.jpg" />
         <meta property="og:title" content="Создание сайтов в Новосибирске: заказать разработку сайта, приложения, сложные интернет-магазины. Индивидуальный дизайн и сопровождение"/>
-        <meta property="og:description" content="Разработка сайтов в Новосибирске - хотите получить сайт с индивидуальным дизайном от 10 000 рублей, тогда вы попали по адрессу! Самые передовые технологии только у нас!"/>
+        <meta property="og:description" content="Превратите свои идеи в реальность! MPNskDev.tech - ваш надежный партнер в разработке сайтов и чат-ботов. Мы объединяем креативность с передовыми технологиями, чтобы создать впечатляющий след в цифровом мире. Команда профессионалов с офисом в Новосибирске, работаем с клиентами по всей России. Повысьте эффективность вашего бизнеса с нами!"/>
         <meta property="og:image:type" content="website" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-
-        <link rel="stylesheet" href="src/pages/globals.css" type="text/css" media="all" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
