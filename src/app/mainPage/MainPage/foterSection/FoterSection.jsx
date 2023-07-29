@@ -35,15 +35,15 @@ const FoterSection = ({ func }) => {
             <div className="foter__block-href__company-pay">
               <h3>ПРИНИМАЕМ К ОПЛАТЕ</h3>
               <div className="foter__block-href__company-pay__img">
-                <img src="./payment-footer-visa.svg"/>
-                <img src="./payment-footer-mc.svg"/>
-                <img src="./payment-footer-mir.svg"/>
+                <img src="./payment-footer-visa.svg" alt="visa"/>
+                <img src="./payment-footer-mc.svg" alt="mc"/>
+                <img src="./payment-footer-mir.svg" alt="mir"/>
               </div>
             </div>
           </div>
         </div>
         <div className="foter__block-img">
-          <img src="./logo-company.svg"/>
+          <img src="./logo-company.svg" alt="LLC M&P NSK DEV"/>
           <a>© M&P NSK DEV, 2023</a>
         </div>
       </div>

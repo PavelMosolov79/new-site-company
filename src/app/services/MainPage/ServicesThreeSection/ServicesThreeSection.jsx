@@ -22,7 +22,7 @@ const ServicesThreeSection = ({ func }) => {
               <h2>Разработку Desctop приложения</h2>
             </div>
             <div className="services__three-rectangle__another-block-img">
-              <img src="./desctop-app.svg"/>
+              <img src="./desctop-app.svg" alt="Desctop приложения"/>
             </div>
           </div>
           <div className="services__three-rectangle__another-block">
@@ -30,7 +30,7 @@ const ServicesThreeSection = ({ func }) => {
               <h2>Разработку Android приложения</h2>
             </div>
             <div className="services__three-rectangle__another-block-img">
-              <img src="./android-app.svg"/>
+              <img src="./android-app.svg" alt="Android приложения"/>
             </div>
           </div>
           <div className="services__three-rectangle__another-block">
@@ -38,7 +38,7 @@ const ServicesThreeSection = ({ func }) => {
               <h2>Дизайн бренда</h2>
             </div>
             <div className="services__three-rectangle__another-block-img">
-              <img src="./logo-app.png"/>
+              <img src="./logo-app.png" alt="Дизайн бренда"/>
             </div>
           </div>
           <div className="services__three-rectangle__another-block">
@@ -46,7 +46,7 @@ const ServicesThreeSection = ({ func }) => {
               <h2>Настройку и ремонт офисного оборудования</h2>
             </div>
             <div className="services__three-rectangle__another-block-img">
-              <img src="./repair-app.svg"/>
+              <img src="./repair-app.svg" alt="Ремонт офисного оборудования"/>
             </div>
           </div>
         </div>

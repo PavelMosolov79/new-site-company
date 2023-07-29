@@ -73,7 +73,7 @@ const MainSection = ({ func }) => {
       </header>
       <div className="contact__main-container">
         <div className="contact__block__img">
-          <img src="./moon-and-sun.svg"/>
+          <img src="./moon-and-sun.svg" alt="Крутимся день и ночь"/>
         </div>
         <h1>Оставьте заявку!</h1>
         <div className="contact__main-container__rectangle">
@@ -112,7 +112,7 @@ const MainSection = ({ func }) => {
             </div>
             <div className="contact__main-container__rectangle-text__qr">
               <a>Мы в соцсетях!<br/><br/>https://t.me/mp_nsk_dev</a>
-              <img src="./contact-qr.svg"/>
+              <img src="./contact-qr.svg" alt="https://t.me/mp_nsk_dev"/>
             </div>
           </div>
         </div>

@@ -39,7 +39,7 @@ const SendSection = ({ func }) => {
         </div>
         <div className="send__block-layout">
           <div className="send__block-layout__img">
-            <img src="./moon-and-sun.svg"/>
+            <img src="./moon-and-sun.svg" alt="Крутимся день и ночь"/>
             <div className="contact__form__container-info">
               <div>EMAIL: MP.MSK.DEV@GMAIL.COM</div>
               <div>ТЕЛЕФОН: +7(995)-129-24-84</div>

@@ -57,12 +57,12 @@ const MainSection = ({ func }) => {
               передовые подходы и постоянное желание расти и развиваться.</p>
             </div>
             <div className="about__main-container__rectangle-block-img">
-              <img src="./about-man.svg"/>
+              <img src="./about-man.svg" alt="Мы молодая и динамичная компанию"/>
             </div>
           </div>
           <div className="about__main-container__rectangle-block">
             <div className="about__main-container__rectangle-block-img">
-              <img src="./about-plane.svg"/>
+              <img src="./about-plane.svg" alt="about comand"/>
             </div>
             <div className="about__main-container__rectangle-block-text">
               <p>Мы начали свой путь не так давно, но за это время смогли завоевать доверие и признание у наших 
@@ -79,7 +79,7 @@ const MainSection = ({ func }) => {
               поставленных задач.</p>
             </div>
             <div className="about__main-container__rectangle-block-img">
-              <img src="./about-site.svg"/>
+              <img src="./about-site.svg" alt="Наш путь невилик, но мы уже сделали свое имя"/>
             </div>
           </div>
           <div className="about__main-container__rectangle-block">
@@ -100,7 +100,7 @@ const MainSection = ({ func }) => {
               основанным на взаимном доверии и успехе.</p>
             </div>
             <div className="about__main-container__rectangle-block-img">
-              <img src="./about-chek.svg"/>
+              <img src="./about-chek.svg" alt="Разрабюотаем вам сайт под любое устройство"/>
             </div>
           </div>
           <div className="about__main-container__rectangle-block-end">
@@ -115,7 +115,7 @@ const MainSection = ({ func }) => {
           <div className="main__container-text__button">
             <div className="main__container-text__button-background">
               <p>Не упусти возможность!</p> 
-              <img src="./elipse-sun-buy.svg"/>
+              <img src="./elipse-sun-buy.svg" alt="маленькое солнышко"/>
               <a href="/contacts">Заказать сейчас</a>
             </div>
           </div>

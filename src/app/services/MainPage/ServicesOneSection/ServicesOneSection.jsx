@@ -29,12 +29,12 @@ const ServicesOneSection = ({ func }) => {
             </div>
           </div>
           <div className="services__one-rectangle__multipage-img">
-            <img src="./lending-png.png"/>
+            <img src="./lending-png.png" alt="Лендинг"/>
           </div>
         </div>
         <div className="services__one-rectangle__multipage">
           <div className="services__one-rectangle__multipage-img">
-            <img src="./multipage-png.png"/>
+            <img src="./multipage-png.png" alt="Многостраничный сайт"/>
           </div>
           <div className="services__one-rectangle__multipage-text">
             <div>
@@ -64,12 +64,12 @@ const ServicesOneSection = ({ func }) => {
             </div>
           </div>
           <div className="services__one-rectangle__multipage-img">
-            <img src="./event-png.png"/>
+            <img src="./event-png.png" alt="Сайт для мероприятий"/>
           </div>
         </div>
         <div className="services__one-rectangle__multipage">
           <div className="services__one-rectangle__multipage-img">
-            <img src="./legal-png.png"/>
+            <img src="./legal-png.png" alt="Юридический кабинет"/>
           </div>
           <div className="services__one-rectangle__multipage-text">
             <div>
@@ -100,7 +100,7 @@ const ServicesOneSection = ({ func }) => {
             </div>
           </div>
           <div className="services__one-rectangle__multipage-img">
-            <img src="./shop-png.png"/>
+            <img src="./shop-png.png" alt="Интернет-магазин"/>
           </div>
         </div>
       </div>

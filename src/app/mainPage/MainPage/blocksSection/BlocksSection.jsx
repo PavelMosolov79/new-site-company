@@ -11,7 +11,7 @@ const BlocksSection = ({ func }) => {
               <h2>UX/UI ДИЗАЙН</h2>
             </div>
             <div className="blocks__ui-text">
-              <img src="./ux-circles.svg"/>
+              <img src="./ux-circles.svg" alt="Ui/UX дизайн"/>
               <div className="blocks__ui-text__a">
                 <a className="blocks__ui-text__a-10">10</a>
                 <a className="blocks__ui-text__a-case"><br/>Кейсов<br/> на реальных<br/> пользователях</a>
@@ -22,12 +22,12 @@ const BlocksSection = ({ func }) => {
         <button className="blocks__tools-button">
           <div className="blocks__tools">
               <h2>Передовые<br/>инструменты<br/>обработки</h2>
-              <img src="./tool-circle.svg"/>
+              <img src="./tool-circle.svg" alt="Передовые инструменты обработки"/>
           </div>
         </button>
         <button className="blocks__design-button">
           <div className="blocks__design">
-            <img src="./design-circle.svg"/>
+            <img src="./design-circle.svg" alt="9-ЛУЧШИХ инструментов для дизайна"/>
             <h2>Живой дизайн</h2>
             <a>9-ЛУЧШИХ</a>
             <p>инструментов для дизайна</p>
@@ -35,7 +35,7 @@ const BlocksSection = ({ func }) => {
         </button>
         <button type="button" onClick={(e) => {e.preventDefault(); window.location.href='/about';}} className="blocks__more-button">
           <div className="blocks__more">
-            <img src="./about-arrow.svg"/>
+            <img src="./about-arrow.svg" alt="Больше о нас"/>
             <a>Хотите узнать больше о нас?</a>
           </div>
         </button>

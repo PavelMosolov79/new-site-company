@@ -58,18 +58,18 @@ const MainSection = ({ func }) => {
               <div className="main__container-text__button">
                 <div className="main__container-text__button-background">
                   <p>Не упусти возможность!</p> 
-                  <img src="./elipse-sun-buy.svg"/>
+                  <img src="./elipse-sun-buy.svg" alt="Маленькое солнышко"/>
                   <a href="/contacts">Заказать сейчас</a>
                 </div>
               </div>
             </div>
           </div>
           <div className="main__container-animation">
-            <img id="pic1" src="./elipse-button-3.svg" className="main__container-animation__three"/>
-            <img src="./elipse-button-2.svg" className="main__container-animation__two"/>
-            <img id="pic2" src="./elipse-button-1.svg" className="main__container-animation__one"/>
+            <img id="pic1" src="./elipse-button-3.svg" className="main__container-animation__three" alt="Креативная студия"/>
+            <img src="./elipse-button-2.svg" className="main__container-animation__two" alt="Средний круг svg"/>
+            <img id="pic2" src="./elipse-button-1.svg" className="main__container-animation__one" alt="Большой круг svg"/>
             <button className="main__container-animation__button" onClick={changeImage}>
-              <img src="./triangle-button-0.svg"/>
+              <img src="./triangle-button-0.svg" alt="кнопка анимации"/>
             </button>
           </div>
         </div>

@@ -18,7 +18,7 @@ const ServicesTwoSection = ({ func }) => {
       <div className="services__two-rectangle">
         <div className="services__two-rectangle__multipage">
           <div className="services__two-rectangle__multipage-img">
-            <img src="./bot-png-serv.png"/>
+            <img src="./bot-png-serv.png" alt="Супер бот"/>
           </div>
           <div className="services__two-rectangle__multipage-text">
             <div>
