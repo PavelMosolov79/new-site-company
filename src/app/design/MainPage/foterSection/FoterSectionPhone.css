@@ -1,0 +1,111 @@
+
+
+@media (max-width: 761px) {
+     /* HEADER */
+     :root {
+        --index: calc(1vw + 1vh);
+    }
+
+    @keyframes RotationOneMoon {
+        from {
+            /* transition: 0.8s; */
+            opacity: 0.3;
+            transform: rotate(0deg);
+        }
+        to {
+            /* transition: 0.8s; */
+            opacity: 0.3;
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes RotationTwoSun {
+        from {
+            transition: 0.8s;
+            transform: rotate(0deg);
+        }
+        to {
+            transition: 0.8s;
+            transform: rotate(-360deg);
+        }
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: calc(var(--index) * 37);
+        background: linear-gradient(0deg, #081170 15.10%, #085edf 99.99%, #102735 100%);
+        /* background-color: aliceblue; */
+    }
+
+    .foter__block{
+        display: flex;
+        /* justify-content: center; */
+        margin: calc(var(--index) * 1) calc(var(--index) * 0.1);
+        width: 90%;
+        background: linear-gradient(127deg, #181818 0%, rgba(11, 11, 11, 0.00) 99.48%);
+        border-radius: 30px;
+    }
+
+    .foter__block-href{
+        display: flex;
+        width: 50%;
+        padding: calc(var(--index) * 1);
+    }
+
+    .foter__block-href__services{
+        margin: calc(var(--index) * 1);
+    }
+
+    .foter__block-href h3{
+        font-weight: 600;
+        /* text-align: right; */
+        font-size: calc(var(--index) * 0.9);
+        color: #FFFFFF;
+    }
+
+    .foter__block-href a{
+        font-weight: 600;
+        /* text-align: right; */
+        font-size: calc(var(--index) * 0.7);
+        color: #b1b1b1;
+    }
+
+    .foter__block-href a:hover{
+        cursor: pointer; 
+        color: #600fa1;
+    }
+
+    .foter__block-href__company-pay{
+        margin-top: calc(var(--index) * 1);
+    }
+
+    .foter__block-href__company-pay__img{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .foter__block-href__company-pay__img img{
+        margin-top: calc(var(--index) * 1.5);
+    }
+
+    .foter__block-href__company{
+        margin: calc(var(--index) * 1);
+    }
+
+    .foter__block-img{
+        display: grid;
+        justify-content: right;
+        padding: calc(var(--index) * 2);
+        width: 50%;
+    }
+
+    .foter__block-img a{
+        font-weight: 600;
+        text-align: right;
+        /* text-align: right; */
+        font-size: calc(var(--index) * 0.9);
+        color: #FFFFFF;
+    }
+}
