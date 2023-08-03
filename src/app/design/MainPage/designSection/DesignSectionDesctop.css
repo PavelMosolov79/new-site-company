@@ -1,0 +1,131 @@
+
+
+@media (min-width: 761px) {
+    /* HEADER */
+    :root {
+        --index: calc(1vw + 1vh);
+    }
+
+    @keyframes SizeOne {
+        0% {
+            margin: calc(var(--index) * 3.5);
+            width: calc(var(--index) * 8);
+            height: calc(var(--index) * 8);
+        }
+        50%{
+            margin: calc(var(--index) * 3.3);
+            width: calc(var(--index) * 9);
+            height: calc(var(--index) * 9);
+        }
+        100% {
+            margin: calc(var(--index) * 3.5);
+            width: calc(var(--index) * 8);
+            height: calc(var(--index) * 8);
+        }
+    }
+
+    @keyframes RotationOne {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes RotationTwo {
+        from {
+            transition: 0.8s;
+            transform: rotate(0deg);
+        }
+        to {
+            transition: 0.8s;
+            transform: rotate(-360deg);
+        }
+    }
+
+    /*  */
+    /*MAIN CONTAINER*/
+    .design-block{
+        background-position: center center;
+        background-size: cover;
+        /* background: linear-gradient(180deg, #6F03B1 0%, #B18B03 50%, #6F03B1 97.92%); */
+        background: linear-gradient(180deg, #90475A 0%, #B18B03 100%);
+
+        display: flex;
+        justify-content: left;
+        
+        width: 100%;
+        height: calc(var(--index) * 42);
+        /* background-image: url("../../../../public/main-stacked-waves.svg"); */
+    }
+
+    .design-block__main-container__poster{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* position: relative; */
+        margin: calc(var(--index) * 2);
+        /* margin-left: calc(var(--index) * 10); */
+        width: 45%;
+        height: calc(var(--index) * 38);
+        border-radius: 86px;
+        background: linear-gradient(159deg, #834578 0%, #533463 99.48%);
+    }
+
+    .design-block__main-container__poster-rectangle img{
+        position: absolute;
+        margin-top: calc(var(--index) * 2);
+        margin-left: calc(var(--index) * 1);
+        width: calc(var(--index) * 40);
+        height: calc(var(--index) * 20);
+    }
+
+    .design-block__main-container__poster-rectangle__text{
+        margin-top: calc(var(--index) * 24);
+    }
+
+    .design-block__main-container__poster-rectangle__text h2{
+        color: #ffffff;
+        font-style: normal;
+        font-size: calc(var(--index) * 1);
+        text-align: left;
+    }
+
+    .design-block__main-container__poster-rectangle__text p{
+        color: #ffffff;
+        font-style: normal;
+        font-size: calc(var(--index) * 0.8);
+        margin-top: calc(var(--index) * 1);
+        text-align: left;
+    }
+
+    .design-block__main-container__poster-rectangle__text-num{
+        display: flex;
+        justify-content: left;
+        margin-top: calc(var(--index) * 1);
+    }
+
+    .design-block__main-container__poster-rectangle__text-num__grid{
+        display: grid;
+    }
+
+    .design-block__main-container__poster-rectangle__text-num__grid a{
+        color: #0AB1E5;
+        font-style: normal;
+        font-size: calc(var(--index) * 0.8);
+        text-align: left;
+    }
+
+    .design-block__main-container__poster-rectangle__text-num__grid-two{
+        display: grid;
+    }
+
+    .design-block__main-container__poster-rectangle__text-num__grid-two a{
+        color: #0AB1E5;
+        font-style: normal;
+        font-size: calc(var(--index) * 0.8);
+        text-align: left;
+        margin-left: calc(var(--index) * 1);
+    }
+}

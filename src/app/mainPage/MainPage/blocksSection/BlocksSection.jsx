@@ -5,7 +5,7 @@ const BlocksSection = ({ func }) => {
   return (
     <div className="blocks">
       <div className="blocks__layout">
-        <button className="blocks__ui-button">
+        <button type="button" onClick={(e) => {e.preventDefault(); window.location.href='/design';}} className="blocks__ui-button">
           <div className="blocks__ui">
             <div className="blocks__ui-h2">
               <h2>UX/UI ДИЗАЙН</h2>

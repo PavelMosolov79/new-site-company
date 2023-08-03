@@ -4,6 +4,7 @@
 import MainSection from "./MainPage/mainSection/MainSection";
 // import SendSection from "./MainPage/sendSection/SendSection";
 import FoterSection from "./MainPage/foterSection/FoterSection";
+import DesignSection from "./MainPage/designSection/designSection";
 import { useRef } from "react";
 
 const AboutPage = () => {
@@ -21,10 +22,13 @@ const AboutPage = () => {
     <div className="fullpage__container">
       <scroll-container ref={fullpage}>
         <scroll-page id='mainSection'>
-            <MainSection func={scrollToElement}/>
+          <MainSection func={scrollToElement}/>
+        </scroll-page>
+        <scroll-page id='DesignSection'>
+          <DesignSection func={scrollToElement}/>
         </scroll-page>
         <scroll-page id='FoterSection'>
-            <FoterSection func={scrollToElement}/>
+          <FoterSection func={scrollToElement}/>
         </scroll-page>
       </scroll-container>
     </div>
