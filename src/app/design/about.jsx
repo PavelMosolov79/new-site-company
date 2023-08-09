@@ -4,7 +4,7 @@
 import MainSection from "./MainPage/mainSection/MainSection";
 // import SendSection from "./MainPage/sendSection/SendSection";
 import FoterSection from "./MainPage/foterSection/FoterSection";
-import DesignSection from "./MainPage/designSection/designSection";
+import DesignSection from "./MainPage/designSection/DesignSection";
 import { useRef } from "react";
 
 const AboutPage = () => {
