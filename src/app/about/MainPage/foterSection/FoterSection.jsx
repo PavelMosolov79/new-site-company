@@ -16,10 +16,10 @@ const FoterSection = ({ func }) => {
               <li><a href="/services">Интернет магазин</a></li>
               <li><a href="/services">Юридический кабинет</a></li>
               <li><a href="/services">Android приложение</a></li>
-              <li><a href="/services">Desctop приложение</a></li>
-              <li><a href="/services">Дизайн бренда</a></li>
+              <li><a href="/services">Desktop приложение</a></li>
+              {/* <li><a href="/services">Дизайн бренда</a></li>
               <li><a href="/services">Дизайн визиток</a></li>
-              <li><a href="/services">Ремонт ПК</a></li>
+              <li><a href="/services">Ремонт ПК</a></li> */}
             </ul>
           </div>
           <div className="foter__block-href__company">
@@ -33,13 +33,20 @@ const FoterSection = ({ func }) => {
               </ul>
             </div>
             <div className="foter__block-href__company-pay">
+              <h3>Реквизиты</h3>
+              <p>ОГРН 1235400023781<br/></p>  
+              <p>ИНН 5410139380<br/></p>  
+              <p>КПП 540301001<br/></p>  
+              <p>ОКПО 50935055<br/></p> 
+            </div>
+            {/* <div className="foter__block-href__company-pay">
               <h3>ПРИНИМАЕМ К ОПЛАТЕ</h3>
               <div className="foter__block-href__company-pay__img">
               <img src="./payment-footer-visa.svg" alt="visa"/>
                 <img src="./payment-footer-mc.svg" alt="mc"/>
                 <img src="./payment-footer-mir.svg" alt="mir"/>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="foter__block-img">

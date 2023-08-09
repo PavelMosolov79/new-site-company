@@ -49,10 +49,9 @@ const MainSection = ({ func }) => {
       <div className="design__main-container">
         <div className="design__main-container__rectangle">
           <h1>UI / UX</h1>
-          <p>Откройте для себя мир исключительного<br/>
+          <p>Откройте для своих клиентов мир исключительного<br/>
             <a style={{color: "#0AB1E5"}}>UI/UX</a> дизайна! У нас огромный опыт в<br/>
-            сфере <a style={{color: "#00FF94"}}>UI/UX</a> и мы знаем, как превзойти<br/>
-            ваши ожидания.</p>
+            сфере <a style={{color: "#00FF94"}}>UI/UX</a> и мы знаем, как превзойти ожидания.</p>
           <div className="main__container-text__button-layout">
               <div className="main__container-text__button">
                 <div className="main__container-text__button-background">

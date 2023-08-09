@@ -33,7 +33,7 @@ const ServicesThreeSection = ({ func }) => {
               <img src="./android-app.svg" alt="Android приложения"/>
             </div>
           </div>
-          <div className="services__three-rectangle__another-block">
+          {/* <div className="services__three-rectangle__another-block">
             <div className="services__three-rectangle__another-block-h2">
               <h2>Дизайн бренда</h2>
             </div>
@@ -48,7 +48,7 @@ const ServicesThreeSection = ({ func }) => {
             <div className="services__three-rectangle__another-block-img">
               <img src="./repair-app.svg" alt="Ремонт офисного оборудования"/>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

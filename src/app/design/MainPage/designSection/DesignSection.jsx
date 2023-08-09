@@ -1,4 +1,4 @@
-// import "./MainSectionPhone.css";
+import "./DesignSectionPhone.css";
 import "./DesignSectionDesctop.css"
 import Link from "next/link"
 
@@ -17,9 +17,9 @@ const DesignSection = ({ func }) => {
           <img src="./poster.png"/>
           <div className="design-block__main-container__poster-rectangle__text">
             <h2>Захватывающий дизайн</h2>
-            <p>У нас есть опыт в создании интуитивно понятных<br/>
-              дизайнов, которые делают взаимодействие с<br/>
-              продуктом незабываемым.</p>
+            <p>Мы создаем интуитивно понятные дизайны,<br/>
+              которые делают взаимодействие ваших клиентов<br/>
+              с продуктом незабываемым.</p>
             <div className="design-block__main-container__poster-rectangle__text-num">
               <div className="design-block__main-container__poster-rectangle__text-num__grid">
                 <a>99+</a>

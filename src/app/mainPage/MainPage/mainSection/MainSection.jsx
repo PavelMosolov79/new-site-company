@@ -50,9 +50,12 @@ const MainSection = ({ func }) => {
         <div className="main__container-rectangle">
           <div className="main__container-text">
             <div className="main__container-text__layout">
-              <a>СДЕЛАЙ ШАГ</a>
-              <h1>К САЙТУ СВОЕЙ МЕЧТЫ</h1>
-              <a>с нами - это легко!</a>
+              <a>Создадим сайт</a>
+              <h1>Привлекающий клиентов</h1>
+              <a>Ваш успех - наша цель!</a>
+              {/* <a>СДЕЛАЙ ШАГ</a> */}
+              {/* <h1>К САЙТУ СВОЕЙ МЕЧТЫ</h1> */}
+              {/* <a>с нами - это легко!</a> */}
             </div>
             <div className="main__container-text__button-layout">
               <div className="main__container-text__button">
