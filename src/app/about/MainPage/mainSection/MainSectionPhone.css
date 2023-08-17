@@ -61,7 +61,7 @@
         margin: calc(var(--index) * 0.8);
         transition: 0.8s;
         
-        font-family: PT Serif;
+        font-family: 'Bowler';
         font-weight: 600;
         color: #FFFFFF;
         font-size: 20px;
@@ -115,7 +115,7 @@
         color: white;
         padding: 5px 16px;
         margin: 5px;
-
+        font-family: 'Bowler';
         text-align: right;
         font-size: 14px;
         text-decoration: none;
@@ -156,9 +156,9 @@
         color: #ffffff;
         text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
         text-align: justify;
-        font-family: PT Serif;
-        font-size: calc(var(--index) * 2.5);
-        font-weight: 800;
+        font-family: 'Bowler';
+        font-size: calc(var(--index) * 2.1);
+        font-weight: 400;
         line-height: normal;
         margin: calc(var(--index) * 2.5);
     }
@@ -197,9 +197,9 @@
         color: #cecece;
         text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
         text-align: center;
-        font-family: PT Serif;
-        font-size: calc(var(--index) * 1.1);
-        font-weight: 500;
+        font-family: 'Bowler';
+        font-size: calc(var(--index) * 0.9);
+        font-weight: 300;
         line-height: normal;
     }
 
@@ -207,9 +207,9 @@
         color: #ACAAAA;
         text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
         text-align: justify;
-        font-family: PT Serif;
-        font-size: calc(var(--index) * 1.1);
-        font-weight: 500;
+        font-family: 'Bowler';
+        font-size: calc(var(--index) * 0.9);
+        font-weight: 300;
         line-height: normal;
     }
 
@@ -271,9 +271,10 @@
         opacity: 1;
         color: #ffffff00;
         font-style: normal;
-        font-size: calc(var(--index) * 0.8);
-        padding-left: calc(var(--index) * 1.8);
-        margin-top: calc(var(--index) * 0.9);
+        font-family: 'Bowler';
+        font-size: calc(var(--index) * 0.7);
+        padding-left: calc(var(--index) * 0.8);
+        margin-top: calc(var(--index) * 1.1);
     }
 
     .main__container-text__button:hover p{
@@ -295,9 +296,10 @@
         opacity: 1;
         color: #ffffff;
         font-style: normal;
-        font-size: calc(var(--index) * 1);
+        font-family: 'Bowler';
+        font-size: calc(var(--index) * 0.9);
         padding-left: calc(var(--index) * 2.6);
-        padding-top: calc(var(--index) * 0.4);
+        padding-top: calc(var(--index) * 0.5);
         margin: calc(var(--index) * 0.4) calc(var(--index) * 1);
     }
 }

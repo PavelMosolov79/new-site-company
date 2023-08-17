@@ -52,7 +52,7 @@
 
     .services__three-rectangle-h2 h2{
         color: #ffffff;
-        font-family: PT Serif;
+        font-family: 'Bowler';
         font-size: calc(var(--index) * 1.5);
         font-style: normal;
         align-items: center;
@@ -90,7 +90,7 @@
 
     .services__three-rectangle__another-block-h2 h2{
         color: #ffffff;
-        font-family: PT Serif;
+        font-family: 'Bowler';
         font-size: calc(var(--index) * 1);
         font-style: normal;
         align-items: center;

@@ -61,7 +61,7 @@
         margin: calc(var(--index) * 0.8);
         transition: 0.8s;
         
-        font-family: PT Serif;
+        font-family: 'Bowler';
         font-weight: 600;
         color: #FFFFFF;
         font-size: 20px;
@@ -161,7 +161,7 @@
 
     .services__main-container__rectangle-bot-h2 h2{
         color: #ffffff;
-        font-family: PT Serif;
+        font-family: 'Bowler';
         font-size: calc(var(--index) * 1);
         font-style: normal;
         align-items: center;
@@ -179,7 +179,7 @@
 
     .services__main-container__rectangle-bot-ul ul{
         color: #ffffff;
-        font-family: PT Serif;
+        font-family: 'Bowler';
         font-size: calc(var(--index) * 0.9);
         font-style: normal;
         align-items: center;
@@ -204,21 +204,6 @@
         background: linear-gradient(0deg, #0000007e 15.10%, #41414100 99.99%, #102735 100%);
     }
 
-    .services__main-container__rectangle-bot:hover{
-        transition: 1s;
-        position: relative;
-        width: 44%;
-        height: calc(var(--index) * 30);
-        /* margin: calc(var(--index) * 1); */
-    }
-
-    .services__main-container__rectangle-bot:hover h2{
-        transition: 1s;
-        text-decoration: underline;
-        font-size: calc(var(--index) * 1.2);
-        /* border-bottom: 2px dashed #32557f */
-    }
-
     .services__main-container__rectangle-bot img{
         width: calc(var(--index) * 10);
         height: calc(var(--index) * 13);
@@ -240,7 +225,7 @@
 
     .services__main-container__rectangle-site-h2 h2{
         color: #ffffff;
-        font-family: PT Serif;
+        font-family: 'Bowler';
         font-size: calc(var(--index) * 1);
         font-style: normal;
         align-items: center;
@@ -257,7 +242,7 @@
 
     .services__main-container__rectangle-site-ul ul{
         color: #ffffff;
-        font-family: PT Serif;
+        font-family: 'Bowler';
         font-size: calc(var(--index) * 0.9);
         font-style: normal;
         align-items: center;
@@ -270,21 +255,6 @@
         justify-content: center;
         width: 100%;
         height: calc(var(--index) * 14);
-    }
-
-    .services__main-container__rectangle-site:hover{
-        transition: 1s;
-        position: relative;
-        width: 44%;
-        height: calc(var(--index) * 30);
-        /* margin: calc(var(--index) * 1); */
-    }
-
-    .services__main-container__rectangle-site:hover h2{
-        transition: 1s;
-        text-decoration: underline;
-        font-size: calc(var(--index) * 1.2);
-        /* border-bottom: 2px dashed #32557f */
     }
 
     .services__main-container__rectangle-site img{

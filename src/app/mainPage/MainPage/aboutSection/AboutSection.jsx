@@ -34,7 +34,7 @@ const AboutSection = ({ func }) => {
               <div className="about__company-block__steps-item">
                 <div className="about__company-block__steps-item__flex">
                   <div className="about__company-block__steps-item__number"><a>3</a></div>
-                  <div className="about__company-block__steps-item__line"></div>
+                  <div className="about__company-block__steps-item__line-phone"></div>
                 </div>
                 <div className="about__company-block__steps-item__text">
                   <h2>Подтверждение заявки или оплата заказа</h2>

@@ -61,8 +61,8 @@
         margin: calc(var(--index) * 0.8);
         transition: 0.8s;
         
-        font-family: PT Serif;
-        font-weight: 600;
+        font-family: 'Bowler';
+        font-weight: 300;
         color: #FFFFFF;
         font-size: 20px;
         cursor: pointer;
@@ -115,7 +115,7 @@
         color: white;
         padding: 5px 16px;
         margin: 5px;
-
+        font-family: 'Bowler';
         text-align: right;
         font-size: 14px;
         text-decoration: none;
@@ -150,8 +150,9 @@
         text-align: center;
         /* display: grid; */
         align-items: center;
-        font-weight: 700;
+        font-weight: 300;
         font-size: calc(var(--index) * 2);
+        font-family: 'Bowler';
         /* width: 100%; */
         height:calc(var(--index) * 2);
         /* margin-left: calc(var(--index) * 0.2); */
@@ -229,8 +230,9 @@
         text-align: center;
         display: flex;
         align-items: center;
-        font-weight: 700;
-        font-size: calc(var(--index) * 0.8);
+        font-family: 'Bowler';
+        font-weight: 300;
+        font-size: calc(var(--index) * 0.58);
         color: #FFFFFF;
     }
 
@@ -239,8 +241,9 @@
         display: flex;
         align-items: center;
         text-align: center;
-        font-weight: 700;
-        font-size: calc(var(--index) * 0.8);
+        font-weight: 300;
+        font-family: 'Bowler';
+        font-size: calc(var(--index) * 0.6);
         margin-left: calc(var(--index) * 0.2);
         color: #FFFFFF;
     }
@@ -250,13 +253,6 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        
-        /* font-size: calc(var(--index) * 0.9); */
-    }
-
-    .contact__form {
-        /* background: #484f9b; */
-        /* border-radius: 70px; */
     }
 
     .contact__form__container-radio{
@@ -275,7 +271,8 @@
         border-radius: calc(var(--index) * 1.1);
         padding: calc(var(--index) * 1) calc(var(--index) * 1.3);
         margin-top: calc(var(--index) * 0.5);
-        font-weight: 500;
+        font-weight: 300;
+        font-family: 'Bowler';
         font-size: calc(var(--index) * 0.6);
         color: #FFFFFF;
         resize: none;
@@ -301,9 +298,10 @@
         border: none;
         outline: none;
         border-radius: 50px;
+        font-family: 'Bowler';
         padding: 0 calc(var(--index) * 1);
         margin: calc(var(--index) * 0.5);
-        font-weight: 500;
+        font-weight: 300;
         font-size: calc(var(--index) * 0.6);
         color: #FFFFFF;
     }
@@ -319,9 +317,10 @@
         border: none;
         outline: none;
         border-radius: 50px;
+        font-family: 'Bowler';
         padding: 0 calc(var(--index) * 1);
         margin: calc(var(--index) * 0.5);
-        font-weight: 500;
+        font-weight: 300;
         font-size: calc(var(--index) * 0.6);
         color: #FFFFFF;
     }
@@ -337,9 +336,10 @@
         border: none;
         outline: none;
         border-radius: 50px;
+        font-family: 'Bowler';
         padding: 0 calc(var(--index) * 1);
         margin: calc(var(--index) * 0.5);
-        font-weight: 500;
+        font-weight: 300;
         font-size: calc(var(--index) * 0.6);
         color: #FFFFFF;
     }
@@ -351,7 +351,8 @@
     .contact__title {
         margin-top: 30px;
         color: #FFFFFF;
-        font-weight: 700;
+        font-weight: 300;
+        font-family: 'Bowler';
         font-size: calc(var(--index) * 1.5);
     }
     
@@ -363,8 +364,9 @@
     .contact__form__container-type {
         display: flex;
         align-items: center;
-        font-weight: 700;
-        font-size: calc(var(--index) * 0.6);
+        font-weight: 300;
+        font-family: 'Bowler';
+        font-size: calc(var(--index) * 0.55);
         margin-left: calc(var(--index) * 0.2);
         color: #FFFFFF;
     }
@@ -390,7 +392,8 @@
         border-radius: 50px;
         border: none;
         outline: none;
-        font-weight: 700;
+        font-weight: 300;
+        font-family: 'Bowler';
         font-size: calc(var(--index) * 1);
         color: #FFFFFF;
         cursor: pointer;

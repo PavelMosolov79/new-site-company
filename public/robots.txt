@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+Host: www.mpnskdev.tech
+Sitemap: http://mpnskdev.tech/sitemap.xml

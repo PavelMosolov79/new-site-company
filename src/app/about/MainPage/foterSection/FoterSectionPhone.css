@@ -68,16 +68,18 @@
     }
 
     .foter__block-href h3{
-        font-weight: 600;
+        font-weight: 300;
         /* text-align: right; */
-        font-size: calc(var(--index) * 0.9);
+        font-family: 'Bowler';
+        font-size: calc(var(--index) * 0.8);
         color: #FFFFFF;
     }
 
     .foter__block-href a{
-        font-weight: 600;
+        font-weight: 300;
         /* text-align: right; */
-        font-size: calc(var(--index) * 0.7);
+        font-family: 'Bowler';
+        font-size: calc(var(--index) * 0.55);
         color: #b1b1b1;
     }
 
@@ -111,10 +113,11 @@
     }
 
     .foter__block-img a{
-        font-weight: 600;
+        font-weight: 300;
         text-align: right;
+        font-family: 'Bowler';
         /* text-align: right; */
-        font-size: calc(var(--index) * 0.9);
+        font-size: calc(var(--index) * 0.8);
         color: #FFFFFF;
     }
 }
