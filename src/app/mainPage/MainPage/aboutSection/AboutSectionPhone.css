@@ -49,7 +49,7 @@
         border-radius: 30px;
         background: linear-gradient(0deg, #00000000 0%, rgba(181, 138, 255, 0.374) 99.48%);
         width: 90%;
-        height: calc(var(--index) * 85);
+        height: calc(var(--index) * 80);
         padding: calc(var(--index) * 2);
         /* margin: calc(var(--index) * 3); */
     }
@@ -61,7 +61,7 @@
 
     .about__company-header h2{
         color: #ffffff;
-        font-family: 'Bowler';
+        font-family: PT Serif;
         font-weight: 500;
         text-align: right;
         font-size: calc(var(--index) * 2);
@@ -104,16 +104,6 @@
         border: 2px solid rgb(155, 72, 167);
     }
 
-    .about__company-block__steps-item__line-phone{
-        position: relative;
-        z-index: 1;
-        left: calc(var(--index) * 1.5);
-        margin-left: 20px;
-        width: calc(var(--index) * 0.1);
-        height: calc(var(--index) * 14);
-        background: linear-gradient(0deg, #3f2648 0%, rgb(142, 48, 180) 99.48%);
-    }
-
     .about__company-block__steps-item__line{
         position: relative;
         z-index: 1;
@@ -126,26 +116,26 @@
 
     .about__company-block h2{
         color: #FFFFFF;
-        font-family: 'Bowler';
-        font-weight: 500;
+        font-family: PT Serif;
+        font-weight: 800;
         font-size: calc(var(--index) * 1.2);
     }
 
     .about__company-block__steps-item a{
         color: #bcbcbc;
-        font-family: 'Bowler';
+        font-family: PT Serif;
         font-weight: 400;
         /* text-align: right; */
-        font-size: calc(var(--index) * 0.7);
+        font-size: calc(var(--index) * 1);
         
     }
 
     .about__company-block__steps-item__number a{
         color: #FFFFFF;
-        font-family: 'Bowler';
+        font-family: PT Serif;
         font-weight: 600;
         text-align: right;
-        font-size: calc(var(--index) * 1.2);
+        font-size: calc(var(--index) * 1.5);
     }
 
     .about__company-block__steps-item__text{
@@ -174,10 +164,10 @@
     }
 
     .about__header h2{
-        font-family: 'Bowler';
+        font-family: PT Serif;
         font-weight: 600;
         text-align: center;
-        font-size: calc(var(--index) * 1.5);
+        font-size: calc(var(--index) * 2);
         color: #FFFFFF;
     }
 
@@ -226,8 +216,8 @@
     .about__rectangle-one h2{
         width: calc(var(--index) * 10.5);
         height: calc(var(--index) * 1.5);
-        font-family: 'Bowler';
-        font-weight: 300;
+
+        font-weight: 600;
         text-align: right;
         font-size: calc(var(--index) * 0.9);
         color: #FFFFFF;
@@ -236,10 +226,10 @@
     .about__rectangle-one p{
         width: calc(var(--index) * 10.5);
         height: calc(var(--index) * 7);
-        font-family: 'Bowler';
-        font-weight: 200;
+
+        font-weight: 500;
         text-align: justify;
-        font-size: calc(var(--index) * 0.5);
+        font-size: calc(var(--index) * 0.6);
         color: #FFFFFF;
     }
 
@@ -268,8 +258,8 @@
     .about__rectangle-two h2{
         width: calc(var(--index) * 10.5);
         height: calc(var(--index) * 1.5);
-        font-family: 'Bowler';
-        font-weight: 300;
+
+        font-weight: 600;
         text-align: right;
         font-size: calc(var(--index) * 0.9);
         color: #FFFFFF;
@@ -278,10 +268,10 @@
     .about__rectangle-two p{
         width: calc(var(--index) * 10.5);
         height: calc(var(--index) * 7);
-        font-family: 'Bowler';
-        font-weight: 200;
+
+        font-weight: 500;
         text-align: justify;
-        font-size: calc(var(--index) * 0.5);
+        font-size: calc(var(--index) * 0.6);
         color: #FFFFFF;
     }
 
@@ -317,8 +307,8 @@
     .about__rectangle-three h2{
         width: calc(var(--index) * 10.5);
         height: calc(var(--index) * 1.5);
-        font-family: 'Bowler';
-        font-weight: 300;
+
+        font-weight: 600;
         text-align: right;
         font-size: calc(var(--index) * 0.9);
         color: #FFFFFF;
@@ -327,10 +317,10 @@
     .about__rectangle-three p{
         width: calc(var(--index) * 10.5);
         height: calc(var(--index) * 7);
-        font-family: 'Bowler';
-        font-weight: 200;
+
+        font-weight: 500;
         text-align: justify;
-        font-size: calc(var(--index) * 0.5);
+        font-size: calc(var(--index) * 0.6);
         color: #FFFFFF;
     }
 
@@ -366,8 +356,8 @@
     .about__rectangle-four h2{
         width: calc(var(--index) * 10.5);
         height: calc(var(--index) * 1.5);
-        font-family: 'Bowler';
-        font-weight: 300;
+
+        font-weight: 600;
         text-align: right;
         font-size: calc(var(--index) * 0.9);
         color: #FFFFFF;
@@ -376,10 +366,10 @@
     .about__rectangle-four p{
         width: calc(var(--index) * 10.5);
         height: calc(var(--index) * 7);
-        font-family: 'Bowler';
-        font-weight: 200;
+
+        font-weight: 500;
         text-align: justify;
-        font-size: calc(var(--index) * 0.5);
+        font-size: calc(var(--index) * 0.6);
         color: #FFFFFF;
     }
 

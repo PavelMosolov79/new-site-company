@@ -29,19 +29,3 @@ body {
 .fullpage__container{
   background-color: rgb(0, 0, 0);
 }
-
-/* Обычный */
-@font-face {
-	font-family: 'Bowler'; 
-	src: url(/BOWLER.otf); 
-}
-
-@font-face {
-	font-family: 'Comfortaa-Bold'; 
-	src: url(/Comfortaa-Bold.ttf); 
-}
-
-@font-face {
-	font-family: 'Comfortaa-Light'; 
-	src: url(/Comfortaa-Light.ttf); 
-}

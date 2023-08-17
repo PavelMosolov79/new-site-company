@@ -35,14 +35,14 @@ const SendSection = ({ func }) => {
       <div className="send__block">
         <div className="send__block-header">
           <h2>Оставьте заявку!</h2>
-          <a>и наш специалист свяжется с Вами</a>
+          <a>специалист свяжется с Вами</a>
         </div>
         <div className="send__block-layout">
           <div className="send__block-layout__img">
             <img src="./moon-and-sun.svg" alt="Крутимся день и ночь"/>
             <div className="contact__form__container-info">
-              <a>EMAIL: MP.NSK.DEV@GMAIL.COM<br/></a>
-              <a>ТЕЛЕФОН: +7(995)-129-24-84</a>
+              <div>EMAIL: MP.MSK.DEV@GMAIL.COM</div>
+              <div>ТЕЛЕФОН: +7(995)-129-24-84</div>
             </div>
           </div>
           <div className="send__block-layout__email">

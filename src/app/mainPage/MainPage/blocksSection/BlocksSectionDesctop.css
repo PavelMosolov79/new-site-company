@@ -80,11 +80,11 @@
         justify-content: left;
         color: #FFFFFF;
         text-align: left;
-        font-family: 'Bowler';
+        font-family: PT Serif;
         font-size: calc(var(--index) * 1);
         font-style: normal;
         font-weight: 700;
-        margin-left: calc(var(--index) * 1.2);
+        margin-left: calc(var(--index) * 1);
         margin-bottom: calc(var(--index) * 1);
     }
 
@@ -111,10 +111,10 @@
 
     .blocks__ui-text__a{
         text-align: left;
-        font-family: 'Bowler';
+        font-family: PT Serif;
         
-        font-size: calc(var(--index) * 0.6);
-        line-height: 20px;
+        font-size: calc(var(--index) * 1);
+        line-height: 25px;
         right: calc(var(--index) * 1);
         z-index: 1;
         margin-top: calc(var(--index) * 2);
@@ -161,12 +161,12 @@
 
     .blocks__tools h2{
         position: absolute;
-        margin: calc(var(--index) * 4.2) calc(var(--index) * 2.6);
+        margin: calc(var(--index) * 4.4) calc(var(--index) * 2.8);
 
         color: #232323;
         text-align: center;
-        font-family: 'Bowler';
-        font-size: calc(var(--index) * 0.7);
+        font-family: PT Serif;
+        font-size: calc(var(--index) * 1);
         font-style: normal;
         font-weight: 700;
         line-height: 28px;
@@ -209,8 +209,8 @@
 
     .blocks__design h2{
         color: #000;
-        font-family: 'Bowler';
-        font-size: calc(var(--index) * 0.7);
+        font-family: PT Serif;
+        font-size: calc(var(--index) * 1);
         font-style: normal;
         font-weight: 700;
         line-height: calc(var(--index) * 1);
@@ -219,8 +219,8 @@
     .blocks__design p{
         color: #000;
         text-align: center;
-        font-family: 'Bowler';
-        font-size: calc(var(--index) * 0.65);
+        font-family: PT Serif;
+        font-size: calc(var(--index) * 0.7);
         font-style: normal;
         font-weight: 700;
         line-height: 20px;
@@ -229,7 +229,7 @@
     .blocks__design a{
         color: #000;
         text-align: center;
-        font-family: 'Bowler';
+        font-family: PT Serif;
         font-size: calc(var(--index) * 1.5);
         font-style: normal;
         font-weight: 700;
@@ -270,8 +270,8 @@
 
     .blocks__more a{
         color: #ffffff;
-        font-family: 'Bowler';
-        font-size: calc(var(--index) * 0.8);
+        font-family: PT Serif;
+        font-size: calc(var(--index) * 1);
         font-style: normal;
         font-weight: 700;
         line-height: 30px;

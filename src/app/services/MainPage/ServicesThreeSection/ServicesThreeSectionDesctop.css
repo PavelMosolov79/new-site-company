@@ -69,7 +69,7 @@
 
     .services__three-rectangle-h2 h2{
         color: #ffffff;
-        font-family: 'Bowler';
+        font-family: PT Serif;
         font-size: calc(var(--index) * 1.5);
         font-style: normal;
         align-items: center;
@@ -102,12 +102,12 @@
         align-items: center;
         width: 50%;
         height: 30vh;
-        padding: calc(var(--index) * 1.5);
+        margin: calc(var(--index) * 1.5);
     }
 
     .services__three-rectangle__another-block-h2 h2{
         color: #ffffff;
-        font-family: 'Bowler';
+        font-family: PT Serif;
         font-size: calc(var(--index) * 1);
         font-style: normal;
         align-items: center;
