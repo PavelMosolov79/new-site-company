@@ -19,7 +19,7 @@ const ServicesThreeSection = ({ func }) => {
         <div className="services__three-rectangle__another">
           <div className="services__three-rectangle__another-block">
             <div className="services__three-rectangle__another-block-h2">
-              <h2>Разработку Desctop приложения</h2>
+              <h2>Разработку Desktop приложения</h2>
             </div>
             <div className="services__three-rectangle__another-block-img">
               <img src="./desctop-app.svg" alt="Desctop приложения"/>

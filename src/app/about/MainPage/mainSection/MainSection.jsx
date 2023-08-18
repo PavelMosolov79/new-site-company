@@ -20,7 +20,7 @@ const MainSection = ({ func }) => {
           <nav className="main__header-layout__navigation">
             <ul>
               <li>
-                <a href="/">Home</a>
+                <a href="/">Главная</a>
               </li>
               <li>
                 <a href="/about" className="main__header-layout__navigation-home">О нас</a>
@@ -38,7 +38,7 @@ const MainSection = ({ func }) => {
               <img src="./menu-bar.svg" alt="menu company"/>
             </button>
             <div className="main__header-layout__menu-dropdown__text">
-              <a href="/">Home</a>
+              <a href="/">Главная</a>
               <a href="/about">О нас</a>
               <a href="/contacts">Контакты</a>
               <a href="/services">Услуги</a>
