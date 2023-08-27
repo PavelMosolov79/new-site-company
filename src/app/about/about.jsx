@@ -1,9 +1,9 @@
 "use client";
 // import BlocksSection from "./MainPage/blocksSection/BlocksSection";
 // import AboutSection from "./MainPage/aboutSection/AboutSection";
-import MainSection from "./MainPage/mainSection/MainSection";
+import MainSection from "./AboutPage/mainSection/MainSection";
 // import SendSection from "./MainPage/sendSection/SendSection";
-import FoterSection from "./MainPage/foterSection/FoterSection";
+import FoterSection from "./AboutPage/foterSection/FoterSection";
 import { useRef } from "react";
 
 const AboutPage = () => {

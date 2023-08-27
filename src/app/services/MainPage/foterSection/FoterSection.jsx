@@ -24,7 +24,7 @@ const FoterSection = ({ func }) => {
               <h3>Компания</h3>
               <ul>
                 <li><a href="/about">О компании</a></li>
-                <li><a href="/about">Портфолио</a></li>
+                <li><a href="/portfolio">Портфолио</a></li>
                 <li><a href="/contacts">Документы</a></li>
                 <li><a href="/contacts">Контакты</a></li>
               </ul>

@@ -51,6 +51,9 @@ const MainSection = ({ func }) => {
                 <a href="/about">О нас</a>
               </li>
               <li>
+                <a href="/portfolio">Портфолио</a>
+              </li>
+              <li>
                 <a href="/contacts" className="main__header-layout__navigation-home">Контакты</a>
               </li>
               <li>
@@ -65,6 +68,7 @@ const MainSection = ({ func }) => {
             <div className="main__header-layout__menu-dropdown__text">
               <a href="/">Главная</a>
               <a href="/about">О нас</a>
+              <a href="/portfolio">Портфолио</a>
               <a href="/contacts">Контакты</a>
               <a href="/services">Услуги</a>
             </div> 
