@@ -132,7 +132,7 @@
     .portfolio{
         background-position: center center;
         background-size: cover;
-        background: linear-gradient(0deg, #ffc400 15.10%, #8d2d00 99.99%, #ff5202 100%);
+        background: linear-gradient(0deg, #6f00ff 15.10%, #1e0046 99.99%, #1e0046 100%);
         /* background-image: url("../../../../public/main-stacked-waves.svg"); */
     }
 
@@ -146,9 +146,9 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        background-color: #fd8f5c4b;
+        background-color: #5caffd4b;
         width: 100%;
-        border: solid rgb(255, 115, 0);
+        border: solid rgb(225, 0, 255);
         border-radius: calc(var(--index) * 2);
         height: calc(var(--index) * 53);
         margin: calc(var(--index) * 2);
@@ -158,9 +158,9 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        background-color: #fd8f5c4b;
+        background-color: #5caffd4b;
         width: 100%;
-        border: solid rgb(255, 115, 0);
+        border: solid rgb(225, 0, 255);
         border-radius: calc(var(--index) * 2);
         height: calc(var(--index) * 34);
         margin: calc(var(--index) * 2);

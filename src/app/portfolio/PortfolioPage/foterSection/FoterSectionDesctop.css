@@ -44,7 +44,7 @@
         justify-content: center;
         width: 100%;
         height: calc(var(--index) * 18);
-        background: linear-gradient(0deg, #ff5202 15.10%, #ffc400 99.99%, #8d2d00 100%);
+        background: linear-gradient(0deg, #6f00ff 15.10%, #1e0046 99.99%, #1e0046 100%);
     }
 
     .foter__block{
