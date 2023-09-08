@@ -1,32 +1,18 @@
 import "./VideoSectionPhone.css";
 import "./VideoSectionDesctop.css"
-import React from "react";
-import PropTypes from "prop-types";
+import ReactPlayer from 'react-player'
+import React, { useEffect, useState } from "react";
+
+import dynamic from 'next/dynamic'
 
 const VideoSection = ({ func }) => {
-  const YoutubeEmbed = ({ embedId }) => (
-    <div className="video-responsive">
-      <iframe
-        width="853"
-        height="480"
-        src={`https://www.youtube.com/embed/${embedId}`}
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-        title="Embedded youtube"
-      />
-    </div>
-  );
-  
-  YoutubeEmbed.propTypes = {
-    embedId: PropTypes.string.isRequired
-  };
 
   return (
     <div className="video">
       <div className="video__block">
-        <YoutubeEmbed embedId="O39Q68J" />
-
+            <ReactPlayer url='https://www.youtube.com/watch?v=O39Q68J-ctE&ab_channel=M%26PNSKDEV' 
+            width="100%" 
+            height="100%"/>
       </div>
     </div>
   );
