@@ -11,7 +11,8 @@ const VideoSection = ({ func }) => {
     <div className="video">
       <div className="video__block">
             <ReactPlayer url='https://www.youtube.com/watch?v=O39Q68J-ctE&ab_channel=M%26PNSKDEV' 
-            width="100%" 
+            width="80%"
+            controls = "true"
             height="100%"/>
       </div>
     </div>

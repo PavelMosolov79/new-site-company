@@ -66,6 +66,11 @@ const MainSection = ({ func }) => {
                 </div>
               </div>
             </div>
+            <div className="main__container-text__icons">
+              <a href="https://t.me/mp_nsk_dev"><img src="./telegram.svg" /></a>
+              <a href="https://vk.com/mp_nsk_dev"><img src="./vkontakte.svg" /></a>
+              <a href="https://www.youtube.com/@MPNSKDEV"><img src="./youtube.svg" /></a>
+            </div>
           </div>
           <div className="main__container-animation">
             <img id="pic1" src="./elipse-button-3.svg" className="main__container-animation__three" alt="Креативная студия"/>

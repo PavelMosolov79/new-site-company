@@ -35,7 +35,7 @@
         display: grid;
         justify-content: center;
         width: 100%;
-        height: 120vh;
+        height: 100vh;
         background: linear-gradient(0deg, #000 15.10%, #0b3148 99.99%, #0e4463 100%);
 
     }
@@ -45,7 +45,7 @@
         justify-content: center;
 
         width: calc(var(--index) * 50);
-        height: calc(var(--index) * 37);
+        height: calc(var(--index) * 29);
         margin: calc(var(--index) * 3);
     
         border-radius: 86px;
@@ -69,8 +69,8 @@
     }
 
     .send__block-layout__img img{
-        width: 100%;
-        height: 70%;
+        width: 80%;
+        height: 60%;
         animation: RotationTwo 5s infinite linear;
     }
 
@@ -106,13 +106,6 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        
-        /* font-size: calc(var(--index) * 0.9); */
-    }
-
-    .contact__form {
-        /* background: #484f9b; */
-        /* border-radius: 70px; */
     }
 
     .contact__form__container-radio{
@@ -124,7 +117,7 @@
 
     .contact__form__container-task {
         width: calc(var(--index) * 20);
-        height: calc(var(--index) * 10);
+        height: calc(var(--index) * 5);
         background: linear-gradient(180deg, #606060 0%, rgba(96, 96, 96, 0.00) 100%);
         border: none;
         outline: none;
@@ -132,7 +125,7 @@
         padding: calc(var(--index) * 1) calc(var(--index) * 1.3);
         margin-top: calc(var(--index) * 0.5);
         font-weight: 500;
-        font-size: calc(var(--index) * 0.8);
+        font-size: calc(var(--index) * 0.5);
         color: #FFFFFF;
         resize: none;
     }
@@ -144,7 +137,7 @@
     .contact__form__container-info {
         font-weight: 300;
         text-align: center;
-        font-size: calc(var(--index) * 0.8);
+        font-size: calc(var(--index) * 0.5);
         /* margin: calc(var(--index) * 0.5); */
         color: #FFFFFF;
     }
@@ -152,7 +145,7 @@
     .contact__form__container-name {
         justify-content: center;
         width: calc(var(--index) * 20);
-        height: calc(var(--index) * 2);
+        height: calc(var(--index) * 1.5);
         background: linear-gradient(180deg, #606060 0%, rgba(96, 96, 96, 0.00) 100%);
         border: none;
         outline: none;
@@ -160,7 +153,7 @@
         padding: 0 calc(var(--index) * 1);
         margin: calc(var(--index) * 0.5);
         font-weight: 500;
-        font-size: calc(var(--index) * 0.8);
+        font-size: calc(var(--index) * 0.5);
         color: #FFFFFF;
     }
     
@@ -170,7 +163,7 @@
 
     .contact__form__container-email {
         width: calc(var(--index) * 20);
-        height: calc(var(--index) * 2);
+        height: calc(var(--index) * 1.5);
         background: linear-gradient(180deg, #606060 0%, rgba(96, 96, 96, 0.00) 100%);
         border: none;
         outline: none;
@@ -178,7 +171,7 @@
         padding: 0 calc(var(--index) * 1);
         margin: calc(var(--index) * 0.5);
         font-weight: 500;
-        font-size: calc(var(--index) * 0.8);
+        font-size: calc(var(--index) * 0.5);
         color: #FFFFFF;
     }
     
@@ -188,7 +181,7 @@
 
     .contact__form__container-phone {
         width: calc(var(--index) * 20);
-        height: calc(var(--index) * 2);
+        height: calc(var(--index) * 1.5);
         background: linear-gradient(180deg, #606060 0%, rgba(96, 96, 96, 0.00) 100%);
         border: none;
         outline: none;
@@ -196,7 +189,7 @@
         padding: 0 calc(var(--index) * 1);
         margin: calc(var(--index) * 0.5);
         font-weight: 500;
-        font-size: calc(var(--index) * 0.8);
+        font-size: calc(var(--index) * 0.5);
         color: #FFFFFF;
     }
     
@@ -220,14 +213,14 @@
         display: flex;
         align-items: center;
         font-weight: 700;
-        font-size: calc(var(--index) * 0.8);
+        font-size: calc(var(--index) * 0.5);
         margin-left: calc(var(--index) * 0.2);
         color: #FFFFFF;
     }
     
     input[type="radio"] {
-        width: calc(var(--index) * 1.5);
-        height: calc(var(--index) * 1.5);
+        width: calc(var(--index) * 1);
+        height: calc(var(--index) * 1);
         margin-right: 5px;
         cursor: pointer;
     }
@@ -295,15 +288,15 @@
     .contact__form__container-send {
         display: flex;
         justify-content: center;
-        width: calc(var(--index) * 13);
-        height: calc(var(--index) * 2);
+        width: calc(var(--index) * 8);
+        height: calc(var(--index) * 1.6);
         margin: calc(var(--index) * 0.5);
         background: linear-gradient(180deg, #606060 0%, rgba(96, 96, 96, 0.00) 100%);
         border-radius: 50px;
         border: none;
         outline: none;
         font-weight: 700;
-        font-size: calc(var(--index) * 1);
+        font-size: calc(var(--index) * 0.7);
         color: #FFFFFF;
         cursor: pointer;
     }

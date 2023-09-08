@@ -43,8 +43,9 @@
     .video{
         display: flex;
         justify-content: center;
+        align-items: center;
         width: 100%;
-        height: 200vh;
+        height: calc(var(--index) * 22);
         /* background-color: #1D1D1D; */
         background: linear-gradient(180deg, #090C2D 15.10%, #000000 99.99%, #1D83BC 100%);
     }
@@ -53,27 +54,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: calc(var(--index) * 0.1);
 
         /* background-color: aliceblue; */
-        width: 100%;
-        height: 200vh;
-    }
-
-    .video-responsive {
-        overflow: hidden;
-        padding-bottom: 56.25%;
-        position: relative;
-        height: 0;
-        width: 100%;
-        height: 20vh;
-    }
-    
-    .video-responsive iframe {
-        left: 0;
-        top: 0;
-        height: 100%;
-        width: 100%;
-        position: absolute;
+        width: 80%;
+        height: calc(var(--index) * 18);
     }
 
     .blocks__ui-button{
