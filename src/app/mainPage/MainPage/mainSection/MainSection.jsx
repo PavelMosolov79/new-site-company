@@ -9,7 +9,6 @@ const MainSection = ({ func }) => {
     document.getElementById("pic2").src = temp;
   }
 
-
   return (
     <div className="main">
       <header>
@@ -37,7 +36,7 @@ const MainSection = ({ func }) => {
             </ul>
           </nav>
           <div className="main__header-layout__menu">
-            <button className="main__header-layout__menu-dropdown">
+            <button onclick="myFunction()" className="main__header-layout__menu-dropdown">
               <img src="./menu-bar.svg" alt="menu company"/>
             </button>
             <div className="main__header-layout__menu-dropdown__text">
@@ -57,9 +56,6 @@ const MainSection = ({ func }) => {
               <a>Создадим сайт</a>
               <h1>Привлекающий клиентов</h1>
               <a>Ваш успех - наша цель!</a>
-              {/* <a>СДЕЛАЙ ШАГ</a> */}
-              {/* <h1>К САЙТУ СВОЕЙ МЕЧТЫ</h1> */}
-              {/* <a>с нами - это легко!</a> */}
             </div>
             <div className="main__container-text__button-layout">
               <div className="main__container-text__button">
